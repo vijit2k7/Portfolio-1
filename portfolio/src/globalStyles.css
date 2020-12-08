@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0px;
+  border: 0;
+}
+
+.global {
+  background-color: #212325;
+  padding-left: 150px;
+  padding-right: 150px;
+  font-size: 24px;
+  font-weight: 900;
+  color: #8e8e8f;
+  font-family: "Poppins", sans-serif;
+}

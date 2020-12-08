@@ -1,0 +1,121 @@
+.contact {
+  position: relative;
+  margin-top: 15rem;
+}
+.contact-heading {
+  position: absolute;
+  overflow: hidden;
+
+  left: 0;
+  top: -80px;
+  width: 100%;
+  font-size: 120px;
+  line-height: 120px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-weight: 700 !important;
+  letter-spacing: 0.04em;
+  text-align: left;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0.05;
+  color: white;
+}
+.contact-section-intro {
+  padding-left: 28px;
+  color: white;
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: 30px;
+  padding-left: 28px;
+}
+.contact-card {
+  background-color: #2f3234 !important;
+  margin-top: 40px;
+  border-radius: 20px !important;
+}
+.card-text-heading {
+  margin: 0;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+  font-weight: 700;
+  list-style-type: none;
+}
+
+.fas {
+  color: #5ac24d;
+  padding: 20px 10px 10px 20px;
+}
+.contact-fab {
+  color: #5ac24d;
+  padding: 20px 10px 10px 20px;
+}
+.card-text-content {
+  margin: 0;
+  color: #a9a9a9;
+  font-weight: 400;
+  font-size: 16px;
+}
+.grid-item-call {
+  padding-left: 25px;
+  padding-top: 20px;
+}
+
+.contact-card-2 {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+/* Seprator */
+
+.contact-seprator {
+  padding-top: 5rem;
+  margin-left: 1rem;
+}
+
+.seprator {
+  background-color: transparent !important;
+  display: inline-block;
+  width: 50%;
+  height: 10px;
+  margin-left: 10px;
+  margin-top: 17px;
+  border-top: 4px solid hsla(0, 0%, 100%, 0.05);
+}
+
+/* Form Styling */
+
+.contact-form {
+  padding: 20px 500px 20px 50px;
+  margin-top: 10px;
+  color: #404347 !important;
+  width: 40rem;
+}
+
+.contact-form-grid {
+  margin-top: 40px;
+  background-color: #404347 !important;
+  border-radius: 20px !important;
+}
+.contact-textfield-grid {
+  margin-top: 10px;
+}
+.form-grid-name {
+  padding-right: 30px;
+}
+
+.contact-textfield-grid {
+  padding-top: 15px;
+}
+#text-field {
+  height: 100px;
+}
+.button-grid {
+  padding-top: 20px;
+}
+#button {
+  width: 150px;
+}
+
+/* Lets talk */

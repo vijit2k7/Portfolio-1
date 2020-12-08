@@ -1,0 +1,87 @@
+.passion {
+  padding-top: 150px;
+  position: relative;
+}
+.passion-heading {
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  top: 120px;
+  width: 100%;
+  font-size: 120px;
+  line-height: 120px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-align: left;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0.05;
+}
+
+.passion-section-heading {
+  color: white;
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: 30px;
+  padding-left: 7px;
+}
+.passion-section-intro {
+  padding-bottom: 40px;
+  padding-left: 10px;
+}
+.tx-primary {
+  color: #5ac24d;
+}
+
+/* .passion-card-text {
+  padding-left: 15px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+} */
+/* cards */
+
+.passion-card-container {
+  padding: 10px 40px 10px 40px;
+}
+.passion-card-heading {
+  padding-left: 15px;
+
+  color: white !important;
+  padding-top: 25px;
+}
+
+.passion-card-1 {
+  background-color: #2f3234 !important;
+  color: #7f7f80 !important;
+  border-radius: 5% !important;
+  margin-right: 15px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding: 0 5px 10px 5px;
+}
+.passion-card-2 {
+  background-color: #2f3234 !important;
+  color: #7f7f80 !important;
+  border-radius: 5% !important;
+  margin-right: 15px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding: 0 5px 10px 5px;
+}
+.passion-card-3 {
+  background-color: #2f3234 !important;
+  color: #7f7f80 !important;
+  border-radius: 5% !important;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding: 0 5px 10px 5px;
+}
+
+.passion-card-text {
+  font-size: 19px;
+}

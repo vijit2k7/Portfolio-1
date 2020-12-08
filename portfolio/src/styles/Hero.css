@@ -1,0 +1,17 @@
+/* .hero {
+  padding: 100px 60px 80px 60px;
+} */
+
+.hero-logo {
+  font-size: 25px;
+}
+
+.hero-primarytx {
+  font-size: 40px;
+  padding: 200px 0 200px 0;
+  color: white;
+}
+
+.hero-tx-primary {
+  color: #5ac24d;
+}
