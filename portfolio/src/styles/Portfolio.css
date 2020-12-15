@@ -7,7 +7,7 @@
   position: absolute;
   overflow: hidden;
   left: 0;
-  top: -60px;
+  top: -50px;
   width: 100%;
   font-size: 120px;
   line-height: 120px;
@@ -26,17 +26,36 @@
   font-weight: bold;
   font-size: 35px;
   margin-top: 30px;
+  padding-left: 8px;
+}
+.portfolio-section-intro {
+  padding-left: 12px;
+}
+/* buttom */
+.portfolio-download-resume {
+  color: white;
+  font-weight: 400;
+  padding-left: 22px;
 }
 
-.portfolio-card-media {
+/* Cards */
+.portfolio-card-container {
   display: flex;
-
-  padding-top: 80px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  align-content: flex-start;
+  flex-wrap: wrap;
 }
+.portfolio-card-item {
+  padding: 0;
+  cursor: pointer;
+  margin: 10px 5%;
 
-.portfolio-img {
-  height: 0;
-  padding-top: 56.25%;
-  margin-top: 30;
+  background-size: cover;
+  height: 540px;
+
+  border-radius: 10px;
+}
+.card-img {
+  width: 20rem;
+  height: 100%;
 }

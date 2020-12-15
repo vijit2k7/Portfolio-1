@@ -24,7 +24,7 @@
   color: white;
   font-weight: bold;
   font-size: 35px;
-  margin-top: 30px;
+  margin-top: 50px;
   padding-left: 7px;
 }
 .passion-section-intro {
@@ -34,22 +34,23 @@
 .tx-primary {
   color: #5ac24d;
 }
+.passion-hireme {
+  color: white;
+  font-weight: 400;
+  padding-left: 47px;
+}
 
-/* .passion-card-text {
-  padding-left: 15px;
-  padding-bottom: 5px;
-  margin-bottom: 5px;
-} */
 /* cards */
 
 .passion-card-container {
   padding: 10px 40px 10px 40px;
 }
 .passion-card-heading {
-  padding-left: 15px;
-
   color: white !important;
   padding-top: 25px;
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: 22px;
 }
 
 .passion-card-1 {
@@ -60,7 +61,8 @@
   display: flex;
   text-align: center;
   flex-direction: column;
-  padding: 0 5px 10px 5px;
+  padding: 0 5px 10px 10px;
+  font-size: 180px !important;
 }
 .passion-card-2 {
   background-color: #2f3234 !important;
@@ -70,7 +72,7 @@
   display: flex;
   text-align: center;
   flex-direction: column;
-  padding: 0 5px 10px 5px;
+  padding: 0 5px 10px 10px;
 }
 .passion-card-3 {
   background-color: #2f3234 !important;
@@ -79,9 +81,12 @@
   display: flex;
   text-align: center;
   flex-direction: column;
-  padding: 0 5px 10px 5px;
+  padding: 0 5px 10px 10px;
 }
 
 .passion-card-text {
-  font-size: 19px;
+  font-size: 18px;
+  text-align: left;
+  padding-left: 10px;
+  margin-bottom: 10px;
 }

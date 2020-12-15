@@ -1,9 +1,9 @@
 .subscribe {
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .subscribe-container {
-  padding: 60px 100px 60px 120px;
+  padding: 60px 10px 60px 50px;
   background: #4759d8;
   margin-top: 100px;
   box-shadow: 10%;
@@ -15,19 +15,23 @@
   color: white;
   font-size: 30px;
 }
+.subscribe-heading h5 {
+  font-weight: 400;
+  padding-left: 20px;
+}
 
 .subscribe-email-input {
   background-color: #434c9d;
   height: 50px;
-  width: 23rem;
+  width: 28rem;
   margin-top: 10px;
-  margin-left: 5px;
+  margin-left: 55px;
   border-radius: 20px;
 }
 
 .subscribe-button {
   margin-top: 0.6rem;
-  margin-left: 1rem;
+  margin-left: 0.6rem;
   width: 11rem;
   height: 50px;
   border-radius: 20px;
@@ -36,8 +40,9 @@
   text-transform: uppercase;
 }
 
-.input-text {
-  margin-left: 1rem;
+.subscribe-container p {
+  margin-left: 4rem;
+  font-size: 19px;
 }
 
 small {

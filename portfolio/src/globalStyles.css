@@ -9,7 +9,28 @@
   padding-left: 150px;
   padding-right: 150px;
   font-size: 24px;
-  font-weight: 900;
+
   color: #8e8e8f;
   font-family: "Poppins", sans-serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #202425;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5ac24e;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

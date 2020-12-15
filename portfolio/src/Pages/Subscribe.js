@@ -28,7 +28,7 @@ function Subscribe() {
               disabled
               className="subscribe-email-input"
             ></input>
-            <p className="input-text">
+            <p>
               <small>i will start news letters soon!</small>
             </p>
           </Grid>

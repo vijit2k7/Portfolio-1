@@ -28,5 +28,43 @@
 }
 .summary p {
   padding-top: 19px;
-  /* font-weight: bold; */
+}
+
+/* button */
+
+.download-cv {
+  background-color: #303436;
+  color: white;
+  border-radius: 20px;
+  padding-right: 25px;
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: center;
+  display: inline;
+}
+.summary-linkedin-btn,
+.summary-skype-btn {
+  border-radius: 50%;
+  margin-left: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: #3c4043;
+}
+.download-cv:hover {
+  background-color: #5ac24d;
+}
+.summary-skype-btn:hover {
+  background-color: #5ac24d;
+}
+.summary-linkedin-btn:hover {
+  background-color: #5ac24d;
+}
+
+.fa-linkedin,
+.fa-skype {
+  font-size: 30px;
+  color: white;
+
+  vertical-align: middle;
+  text-align: center;
 }

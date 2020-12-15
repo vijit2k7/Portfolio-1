@@ -20,7 +20,9 @@ function Passion() {
           </p>
         </Grid>
         <Grid item xs={2}>
-          <a href="#">Hire me</a>
+          <a href="#" className="passion-hireme">
+            Hire me
+          </a>
         </Grid>
         <Grid container>
           <Grid item xs={12} className="passion-section-intro">

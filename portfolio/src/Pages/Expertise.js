@@ -23,18 +23,13 @@ const Expertise = () => {
           </p>
         </Grid>
         <Grid item xs={3}>
-          <Button
-            color="primary"
-            variant="outlined"
-            className="download-resume"
-            size="medium"
-            href="#"
-          >
+          <a href="#" className="expertise-download-resume">
+            {" "}
             Download Resume
-          </Button>
+          </a>
         </Grid>
         <Grid container>
-          <Grid item xs={12} className="section-intro">
+          <Grid item xs={12} className="expertise-section-intro">
             <small>Learning is what keeps the mind young.</small>
           </Grid>
         </Grid>
@@ -42,14 +37,13 @@ const Expertise = () => {
       <Grid container className="expertise-card-skill-container">
         <Grid item xs={4}>
           <Card raised className="expertise-card-1 ">
-            <span id="expertise-title" className="expertise-title">
-              CURRENT EMPLOYER
-            </span>
-            <h3 className="job-title">React Engineer</h3>
+            <p className="expertise-card-title">CURRENT EMPLOYER</p>
+            <h3 className="expertise-job-title">React Engineer</h3>
             <ul>
               <div className="expertise-job-link">
                 <li>2018-Present | </li>
                 <li>
+                  &nbsp;
                   <a href="#"> Tilray (Canada)</a>
                 </li>
               </div>
@@ -60,14 +54,17 @@ const Expertise = () => {
             </ul>
           </Card>
           <Card raised className="expertise-card-2 ">
-            <h3 className="job-title">Front-End Engineer</h3>
+            <h3 className="expertise-job-title">Front-End Engineer</h3>
             <ul>
-              <li>2014 - 2015</li>
-              <li>
-                <a className="" href="#">
-                  Kodan Solutions(India)
-                </a>
-              </li>
+              <div className="expertise-job-link">
+                <li>2014 - 2015 |</li>
+                &nbsp;&nbsp;
+                <li>
+                  <a className="" href="#">
+                    Kodan Solutions(India)
+                  </a>
+                </li>
+              </div>
               <p className="expertise-job-detail">
                 Collaborating with a young team on the execution of ideas for
                 processing drone data on maps.
@@ -79,11 +76,11 @@ const Expertise = () => {
           {skills.map((skill) => {
             return (
               <Grid item xs={4}>
-                <Card className="skill-cards">
+                <Card raised className="skill-cards">
                   <span>
                     <i
                       style={{ color: `${skill.color}` }}
-                      className={`fab fa-${skill.icon} fa-2x skill-icon`}
+                      className={`${skill.type} fa-${skill.icon} fa-2x skill-icon`}
                     ></i>
                   </span>
                   <h3 className="skill-name"> {skill.name}</h3>

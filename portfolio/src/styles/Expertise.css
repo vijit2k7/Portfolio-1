@@ -1,6 +1,6 @@
 .expertise-section {
   position: relative;
-  margin-top: 150px;
+  margin-top: 230px;
   padding-bottom: 80px;
 }
 
@@ -27,49 +27,66 @@
   font-weight: bold;
   font-size: 35px;
   margin-top: 30px;
+  padding-left: 8px;
 }
-
+.expertise-section-intro {
+  padding-left: 11px;
+}
 a {
   text-decoration: none !important;
   color: #686969;
 }
 
-.expertise-job-title {
-  color: white;
-}
-
 /* Button */
-.download-resume {
-  text-decoration: none;
-  color: cornflowerblue;
-  font-size: 500px;
+.expertise-download-resume {
+  color: white;
+  font-weight: 400;
+  padding-left: 22px;
 }
 
 /* Cards */
 
 .expertise-card-skill-container {
-  padding: 10px 100px 10px 60px;
+  padding: 80px 60px 10px 60px;
 }
-#expertise-title {
-  font-size: 17px;
+.expertise-card-title {
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff !important;
+  opacity: 0.87;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: left !important;
+  padding-top: 20px;
+}
+.expertise-job-title {
+  color: white;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 10px 0 0;
 }
 
 .expertise-job-link {
   font-size: 15px;
   display: flex;
   flex-direction: row;
-  padding-left: 54px;
 }
 .expertise-job-link li {
+  text-align: left;
   list-style-type: none;
+}
+.expertise-job-link a {
+  color: #5ac24d;
 }
 
 .expertise-card-1 {
   margin-right: 20px;
-  text-align: center;
+
+  padding-left: 15px;
+
   margin-bottom: 20px;
-  text-align: center;
-  align-items: center;
+
   background-color: #2f3234 !important;
   color: #7f7f80 !important;
   padding-top: 5px;
@@ -78,6 +95,9 @@ a {
 .expertise-card-2 {
   margin-right: 20px;
   text-align: center;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  padding-top: 10px;
   align-items: center;
   background-color: #2f3234 !important;
   color: #7f7f80 !important;
@@ -85,10 +105,19 @@ a {
   /* font-size: 25px !important; */
   border-radius: 5% !important;
 }
+.expertise-job-link li {
+  text-align: left;
+  list-style-type: none;
+}
+.expertise-job-link a {
+  color: #5ac24d;
+}
 
 .expertise-job-detail {
   font-size: 21px;
-  padding: 15px 20px 20px 20px;
+  padding: 15px 10px 15px 0;
+  font-size: 18px;
+  text-align: left;
 }
 
 /* SKILLS */
@@ -107,13 +136,17 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 15px;
 }
-.fab {
+.skill-icon {
   padding-top: 15px;
   padding-bottom: 15px;
 }
 .skill-name {
   padding-bottom: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
 }
 .skills-progress {
   border-radius: 100px !important;

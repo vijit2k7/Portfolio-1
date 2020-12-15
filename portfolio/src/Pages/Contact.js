@@ -1,38 +1,9 @@
 import React from "react";
 import "../styles/Contact.css";
-import {
-  Card,
-  CardActionArea,
-  CardContent,
-  Grid,
-  Typography,
-  TextField,
-  withStyles,
-  Icon,
-  Button,
-} from "@material-ui/core";
+import { Card, Grid, TextField, Icon, Button } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
-// const useStyles = makeStyles({
-//   root: {
-//     "& .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline": {
-//       borderColor: "green",
-//     },
-//     "&:hover .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline": {
-//       borderColor: "red",
-//     },
-//     "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline": {
-//       borderColor: "purple",
-//     },
-//   },
-// });
-const styles = (theme) => ({
-  multilineColor: {
-    color: "red",
-  },
-});
 function Contact() {
-  const classes = styles();
   return (
     <div className="contact">
       <div>
@@ -43,76 +14,86 @@ function Contact() {
           <strong className="tx-primary">Let's</strong> get in touch
         </p>
       </div>
-      <Grid xs={12} container direction="row">
-        <Grid className="contact-grid-1" xs={3}>
-          <Card raised className="contact-card-1 contact-card">
-            <Grid container>
-              <Grid xs={2}>
-                <i className="fas fa-phone-alt fa-2x"></i>
-              </Grid>
-              <Grid className="grid-item-call" item xs={9}>
-                <ul>
-                  <li className="card-text-heading">Phone/Whatsapp</li>
-                  <p className="card-text-content">
-                    <a href="#">+1 (438)927-9098</a>
+
+      <Grid container spacing={3} className="contact-cards">
+        <Grid item xs>
+          <Card raised className="contact-grid">
+            <a href="#">
+              <ul>
+                <li>
+                  <div className="contact-card-icon">
+                    <span>
+                      <i className="fas fa-phone-alt"></i>
+                    </span>
+                  </div>
+                  <div className="contact-card-title">Phone/Whatsapp</div>
+                  <p>
+                    <a href="#"> +1(438)927-9098</a>
                   </p>
-                </ul>
-              </Grid>
-            </Grid>
+                </li>
+              </ul>
+            </a>
           </Card>
         </Grid>
-        <Grid className="contact-grid-2" xs={4}>
-          <Card raised className="contact-card-2 contact-card">
-            <Grid container>
-              <Grid xs={3}>
-                <i className="fas fa-at fa-2x"></i>
-              </Grid>
-              <Grid className="grid-item-call" item xs={9}>
-                <ul>
-                  <li className="card-text-heading">Email</li>
-                  <p className="card-text-content">
-                    <a href="#">sharma.sidhant@outlook.com</a>
+        <Grid item xs>
+          <Card raised className="contact-grid contact-email">
+            <a href="#">
+              <ul>
+                <li>
+                  <div className="contact-card-icon">
+                    <span>
+                      <i className="fas fa-at"></i>
+                    </span>
+                  </div>
+                  <div className="contact-card-title">Email</div>
+                  <p>
+                    <a href="#"> sharma.sidhant@outlook.com</a>
                   </p>
-                </ul>
-              </Grid>
-            </Grid>
+                </li>
+              </ul>
+            </a>
           </Card>
         </Grid>
-        <Grid className="contact-grid-3" xs={2}>
-          <Card raised className="contact-card-3 contact-card">
-            <Grid container>
-              <Grid xs={3}>
-                <i className="contact-fab fa-skype fa-2x"></i>
-              </Grid>
-              <Grid className="grid-item-call" item xs={9}>
-                <ul>
-                  <li className="card-text-heading">Skype</li>
-                  <p className="card-text-content">
-                    <a href="#">sid_agnihotri</a>
+        <Grid item xs>
+          <Card raised className="contact-grid">
+            <a href="">
+              <ul>
+                <li>
+                  <div className="contact-card-icon">
+                    <span>
+                      <i className="fas fa-map-marker-alt"></i>
+                    </span>
+                  </div>
+                  <div className="contact-card-title">Skype</div>
+                  <p>
+                    <a href="#"> Sid_Agnihotri</a>
                   </p>
-                </ul>
-              </Grid>
-            </Grid>
+                </li>
+              </ul>
+            </a>
           </Card>
         </Grid>
-        <Grid className="contact-grid-4" xs={3}>
-          <Card raised className="contact-card-4 contact-card">
-            <Grid container>
-              <Grid xs={3}>
-                <i className="contact-fab fab fa-linkedin fa-2x"></i>
-              </Grid>
-              <Grid className="grid-item-call" item xs={9}>
-                <ul>
-                  <li className="card-text-heading">Linkedin</li>
-                  <p className="card-text-content">
-                    <a href="#">Sid_agnihotri</a>
+        <Grid item xs>
+          <Card raised className="contact-grid">
+            <a href="#">
+              <ul>
+                <li>
+                  <div className="contact-card-icon">
+                    <span>
+                      <i className="upwork-icon"></i>
+                    </span>
+                  </div>
+                  <div className="contact-card-title">FreeLancer</div>
+                  <p>
+                    <a>Upwork</a>
                   </p>
-                </ul>
-              </Grid>
-            </Grid>
+                </li>
+              </ul>
+            </a>
           </Card>
         </Grid>
       </Grid>
+      {/* seprator */}
 
       <Grid container xs={12} direction="row" className="contact-seprator">
         <Grid>
@@ -148,30 +129,24 @@ function Contact() {
                   label=""
                   variant="filled"
                   id="text-field"
-                  InputProps={{
-                    className: classes.multilineColor,
-                  }}
                 />
               </Grid>
               <Grid className="button-grid" xs={12}>
-                <Button
-                  id="button"
-                  variant="contained"
-                  color="primary"
-                  endIcon={<Icon>send</Icon>}
-                >
-                  Send
-                </Button>
+                <button type="submit" className="contact-send-btn">
+                  SEND MESSAGE
+                  <span></span>
+                </button>
+                Send
               </Grid>
             </form>
           </Card>
         </Grid>
         <Grid item xs={4}>
-          <Card>
+          <Card raised className="live-chat-container">
             <span>
-              <i className="fas fa-comments"></i>
+              <i className="fas fa-comments fa-3x"></i>
             </span>
-            <p>Live Chat</p>
+            <p className="live-chat">Live Chat</p>
           </Card>
         </Grid>
       </Grid>

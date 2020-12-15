@@ -10,6 +10,7 @@ import Subscribe from "../Pages/Subscribe";
 import "../globalStyles.css";
 import Testimonial from "../Pages/Testimonial";
 import Contact from "../Pages/Contact";
+import Footer from "../Pages/Footer";
 
 function Homepage() {
   return (
@@ -23,6 +24,7 @@ function Homepage() {
       <Subscribe />
       <Testimonial />
       <Contact />
+      <Footer />
     </div>
   );
 }

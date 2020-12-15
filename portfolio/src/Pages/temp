@@ -1,0 +1,111 @@
+//Whatsapp 
+
+<Card raised className="contact-card-2 contact-card">
+            <Grid container>
+              <Grid xs={3}>
+                <i className="fas fa-at fa-2x"></i>
+              </Grid>
+              <Grid className="grid-item-call" item xs={9}>
+                <ul>
+                  <li className="card-text-heading">Email</li>
+                  <p className="card-text-content">
+                    <a href="#">sharma.sidhant@outlook.com</a>
+                  </p>
+                </ul>
+              </Grid>
+            </Grid>
+          </Card>
+
+
+//email -
+<Card raised className="contact-card-3 contact-card">
+            <Grid container>
+              <Grid xs={3}>
+                <i className="contact-fab fa-skype fa-2x"></i>
+              </Grid>
+              <Grid className="grid-item-call" item xs={9}>
+                <ul>
+                  <li className="card-text-heading">Skype</li>
+                  <p className="card-text-content">
+                    <a href="#">sid_agnihotri</a>
+                  </p>
+                </ul>
+              </Grid>
+            </Grid>
+          </Card>
+//linked
+
+<Card raised className="contact-card-4 contact-card">
+            <Grid container>
+              <Grid xs={3}>
+                <i className="contact-fab fab fa-linkedin fa-2x"></i>
+              </Grid>
+              <Grid className="grid-item-call" item xs={9}>
+                <ul>
+                  <li className="card-text-heading">Linkedin</li>
+                  <p className="card-text-content">
+                    <a href="#">Sid_agnihotri</a>
+                  </p>
+                </ul>
+              </Grid>
+            </Grid>
+          </Card>
+
+//
+<Card raised className="contact-card-4 contact-card">
+            <Grid container>
+              <Grid xs={3}>
+                <i className="contact-fab fab fa-linkedin fa-2x"></i>
+              </Grid>
+              <Grid className="grid-item-call" item xs={9}>
+                <ul>
+                  <li className="card-text-heading">Linkedin</li>
+                  <p className="card-text-content">
+                    <a href="#">Sid_agnihotri</a>
+                  </p>
+                </ul>
+              </Grid>
+            </Grid>
+          </Card>
+
+
+
+
+          /////////////////////Expertise section
+
+          <Grid className=" portfolio-card-media " xs={12}>
+          <Grid item xs={4}>
+            <Card className="portfolio-card-1">
+              <CardMedia id="portfolio-img" image="/static/img1.jpg">
+                Test
+              </CardMedia> 
+            </Card>
+          </Grid>
+          <Grid item xs={4}>
+            <Card className="portfolio-card-2">
+              <CardMedia image="/static/img2.jpg">TEST</CardMedia>
+            </Card>
+          </Grid>
+          <Grid item xs={4}>
+            <Card className="portfolio-card-3">
+              <CardMedia image="/static/img3.jpg">TEST</CardMedia>
+            </Card>
+          </Grid>
+        </Grid>
+
+
+        /////css
+        .portfolio-card-container {
+  display: flex;
+}
+.portfolio-card-item {
+  width: 200px;
+  margin: 10px;
+  background: 3px solid #333;
+  background-color: #dfdfdf;
+  min-height: 100px;
+}
+
+.portfolio-card-item span {
+  background-image: url("/static/img1.jpg");
+}

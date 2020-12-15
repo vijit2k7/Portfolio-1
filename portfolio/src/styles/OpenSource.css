@@ -1,8 +1,8 @@
-.passion {
+.os {
   padding-top: 150px;
   position: relative;
 }
-.passion-heading {
+.os-heading {
   position: absolute;
   overflow: hidden;
   left: 0;
@@ -20,14 +20,14 @@
   opacity: 0.05;
 }
 
-.passion-section-heading {
+.os-section-heading {
   color: white;
   font-weight: bold;
   font-size: 35px;
   margin-top: 30px;
   padding-left: 7px;
 }
-.passion-section-intro {
+.os-section-intro {
   padding-bottom: 40px;
   padding-left: 10px;
 }
@@ -35,53 +35,62 @@
   color: #5ac24d;
 }
 
-/* .passion-card-text {
-  padding-left: 15px;
-  padding-bottom: 5px;
-  margin-bottom: 5px;
-} */
+/* button */
+.os-collabrate {
+  color: white;
+  font-weight: 400;
+  padding-left: 47px;
+}
 /* cards */
 
-.passion-card-container {
-  padding: 10px 40px 10px 40px;
+.os-card-container {
+  padding: 30px 40px 40px 40px;
 }
-.passion-card-heading {
-  padding-left: 15px;
-
+.os-card-heading {
   color: white !important;
   padding-top: 25px;
+
+  text-align: left;
 }
 
-.passion-card-1 {
+.os-card-1 {
   background-color: #2f3234 !important;
-  color: #7f7f80 !important;
+  color: #a9a9a9 !important;
   border-radius: 5% !important;
-  margin-right: 15px;
+  margin-right: 25px;
   display: flex;
   text-align: center;
   flex-direction: column;
-  padding: 0 5px 10px 5px;
+  padding: 0 5px 10px 20px;
+  text-align: left;
 }
-.passion-card-2 {
+.os-card-2 {
   background-color: #2f3234 !important;
-  color: #7f7f80 !important;
+  color: #a9a9a9 !important;
   border-radius: 5% !important;
-  margin-right: 15px;
+  margin-right: 25px;
   display: flex;
   text-align: center;
   flex-direction: column;
-  padding: 0 5px 10px 5px;
+  padding: 0 5px 10px 20px;
+  text-align: left;
 }
-.passion-card-3 {
+.os-card-3 {
   background-color: #2f3234 !important;
-  color: #7f7f80 !important;
+  color: #a9a9a9 !important;
   border-radius: 5% !important;
   display: flex;
   text-align: center;
   flex-direction: column;
-  padding: 0 5px 10px 5px;
+  padding: 0 5px 10px 20px;
+  text-align: left;
 }
 
-.passion-card-text {
-  font-size: 19px;
+.os-card-text {
+  font-size: 18px;
+}
+.os-card-container a {
+  color: #5ac24d;
+  padding-top: 15px;
+  font-size: 17px;
 }
