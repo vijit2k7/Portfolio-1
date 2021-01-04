@@ -1,7 +1,9 @@
 import React from "react";
 import { Card, Grid, Button, CardMedia } from "@material-ui/core";
 import "../styles/Portfolio.css";
-
+import img1 from "../images/img1.jpg";
+import img2 from "../images/img2.jpg";
+import img3 from "../images/img3.jpg";
 function Portfolio() {
   return (
     <div className="portfolio-section">
@@ -29,17 +31,26 @@ function Portfolio() {
       </Grid>
 
       <div className="portfolio-card-container">
-        <div className="portfolio-card-item">
-          <img className="card-img" src="./static/img1.jpg" alt="" />
-        </div>
+        <div
+          className="portfolio-card-item"
+          style={{
+            backgroundImage: `url(${img1})`,
+          }}
+        ></div>
 
-        <div className="portfolio-card-item">
-          <img className="card-img" src="./static/img2.jpg" alt="" />
-        </div>
+        <div
+          className="portfolio-card-item"
+          style={{
+            backgroundImage: `url(${img2})`,
+          }}
+        ></div>
 
-        <div className="portfolio-card-item">
-          <img className="card-img" src="./static/img3.jpg" alt="" />
-        </div>
+        <div
+          className="portfolio-card-item"
+          style={{
+            backgroundImage: `url(${img3})`,
+          }}
+        ></div>
       </div>
     </div>
   );

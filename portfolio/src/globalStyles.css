@@ -6,14 +6,20 @@
 
 .global {
   background-color: #212325;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
   font-size: 24px;
 
   color: #8e8e8f;
   font-family: "Poppins", sans-serif;
 }
 
+@media screen and (min-width: 1024px) {
+  .global {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}
 /* width */
 ::-webkit-scrollbar {
   width: 5px;

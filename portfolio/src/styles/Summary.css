@@ -31,16 +31,23 @@
 }
 
 /* button */
-
+.buttons {
+  padding-top: 20px;
+}
 .download-cv {
   background-color: #303436;
   color: white;
-  border-radius: 20px;
+  border-radius: 2px;
   padding-right: 25px;
+  padding: 14px 24px 14px 24px;
   margin-top: 20px;
+  border-radius: 20px;
   font-size: 18px;
   text-align: center;
   display: inline;
+}
+.download-cv i {
+  margin-right: 6px;
 }
 .summary-linkedin-btn,
 .summary-skype-btn {
@@ -60,7 +67,7 @@
   background-color: #5ac24d;
 }
 
-.fa-linkedin,
+.fa-linkedin-in,
 .fa-skype {
   font-size: 30px;
   color: white;

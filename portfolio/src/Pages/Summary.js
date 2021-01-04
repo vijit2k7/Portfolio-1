@@ -29,7 +29,7 @@ function Summary() {
               Download CV
             </button>
             <button className="summary-linkedin-btn">
-              <i className="fab fa-linkedin "></i>
+              <i className="fab fa-linkedin-in "></i>
             </button>
 
             <button className="summary-skype-btn">

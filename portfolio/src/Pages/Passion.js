@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  Card,
-  CardActionArea,
-  CardContent,
-  Grid,
-  Typography,
-} from "@material-ui/core";
+import { Card, Grid, Typography } from "@material-ui/core";
 import "../styles/Passion.css";
 function Passion() {
   return (
@@ -33,7 +27,7 @@ function Passion() {
 
       <div className="passion-container">
         <Grid container xs={12} className="passion-card-container">
-          <Grid container xs={4}>
+          <Grid container xs={12} md={4}>
             <Card raised className={"passion-card-1"}>
               <h4 className="passion-card-heading">Product Design</h4>
               <p className="passion-card-text">
@@ -46,7 +40,7 @@ function Passion() {
               </p>
             </Card>
           </Grid>
-          <Grid container xs={4}>
+          <Grid container xs={12} md={4}>
             <Card raised className={"passion-card-2 "}>
               <h4 className="passion-card-heading">Product Development</h4>
               <p className="passion-card-text">
@@ -59,7 +53,7 @@ function Passion() {
               </p>
             </Card>
           </Grid>
-          <Grid container xs={4}>
+          <Grid container xs={12} md={4}>
             <Card raised className={"passion-card-3"}>
               <h4 className="passion-card-heading">Landing Page & Email</h4>
               <p className="passion-card-text">

@@ -43,9 +43,12 @@
   display: flex;
   padding-top: 50px;
   align-content: flex-start;
-  flex-wrap: wrap;
 }
+
 .portfolio-card-item {
+  width: 100%;
+
+  cursor: pointer;
   padding: 0;
   cursor: pointer;
   margin: 10px 5%;
@@ -54,8 +57,4 @@
   height: 540px;
 
   border-radius: 10px;
-}
-.card-img {
-  width: 20rem;
-  height: 100%;
 }

@@ -41,7 +41,7 @@ const Expertise = () => {
             <h3 className="expertise-job-title">React Engineer</h3>
             <ul>
               <div className="expertise-job-link">
-                <li>2018-Present | </li>
+                <li>2018 - Present | </li>
                 <li>
                   &nbsp;
                   <a href="#"> Tilray (Canada)</a>
