@@ -75,3 +75,12 @@
   vertical-align: middle;
   text-align: center;
 }
+
+@media (max-width: 600px) {
+  .summary-heading {
+    font-size: 50px;
+  }
+  p {
+    font-size: 19px;
+  }
+}

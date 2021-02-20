@@ -46,111 +46,85 @@ a {
 
 /* Cards */
 
-.expertise-card-skill-container {
-  padding: 80px 60px 10px 60px;
-}
-.expertise-card-title {
-  font-size: 14px;
-  font-weight: 300;
-  color: #fff !important;
-  opacity: 0.87;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  text-align: left !important;
-  padding-top: 20px;
-}
-.expertise-job-title {
-  color: white;
-  text-align: left;
+.expertise-card-1,
+.expertise-card-2 {
+  background-color: #2f3234;
   font-size: 20px;
-  font-weight: 500;
-  margin: 10px 0 0;
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 20px;
 }
 
+.exp-card-title {
+  color: #616264;
+  font-size: 20px;
+}
+.exp-job-title {
+  color: white;
+  font-size: 20px;
+}
 .expertise-job-link {
-  font-size: 15px;
+  font-size: 13px;
   display: flex;
   flex-direction: row;
 }
-.expertise-job-link li {
-  text-align: left;
-  list-style-type: none;
-}
+
 .expertise-job-link a {
   color: #5ac24d;
 }
-
-.expertise-card-1 {
-  margin-right: 20px;
-
-  padding-left: 15px;
-
-  margin-bottom: 20px;
-
-  background-color: #2f3234 !important;
-  color: #7f7f80 !important;
+.exp-job-container {
+  padding: 20px;
+}
+.exp-job-detail {
+  text-align: left;
   padding-top: 5px;
-  border-radius: 5% !important;
 }
-.expertise-card-2 {
-  margin-right: 20px;
-  text-align: center;
-  padding-left: 15px;
-  padding-bottom: 15px;
-  padding-top: 10px;
-  align-items: center;
-  background-color: #2f3234 !important;
-  color: #7f7f80 !important;
-
-  /* font-size: 25px !important; */
-  border-radius: 5% !important;
-}
-.expertise-job-link li {
-  text-align: left;
-  list-style-type: none;
-}
-.expertise-job-link a {
-  color: #5ac24d;
-}
-
-.expertise-job-detail {
-  font-size: 21px;
-  padding: 15px 10px 15px 0;
-  font-size: 18px;
-  text-align: left;
-}
-
 /* SKILLS */
-
-.skill-container {
-  padding-right: 20px;
-  padding-bottom: 60px;
-  padding-left: 40px;
-}
 
 .skill-cards {
   background-color: #2f3234 !important;
 
-  margin-left: 20px;
-  border-radius: 10% !important;
-  display: flex;
-  flex-direction: column;
+  width: 20vh;
+  height: 20vh;
+  margin-bottom: 20px;
+
+  border-radius: 20px;
   align-items: center;
-  margin-bottom: 15px;
+  box-shadow: #686969;
 }
+
 .skill-icon {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 20px;
 }
 .skill-name {
-  padding-bottom: 10px;
-  color: white;
   font-size: 20px;
-  font-weight: 600;
+  padding-top: 10px;
+  color: white;
 }
-.skills-progress {
-  border-radius: 100px !important;
-  padding-right: 10px !important;
-  padding-left: 10px !important;
-  padding-bottom: 20px;
+
+@media (max-width: 375px) {
+  .expertise-heading {
+    font-size: 40px;
+  }
+  .expertise-section-heading {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: -20px;
+  }
+  .exp-intro-small {
+    font-size: 10px;
+  }
+  .expertise-download-resume {
+    font-size: 15px;
+    margin-left: 2px;
+  }
+  .pas-card-text h4 {
+    font-size: 18px;
+  }
+  .pas-card-text p {
+    font-size: 15px;
+  }
+  .skill-container {
+    padding-top: 15px;
+  }
 }

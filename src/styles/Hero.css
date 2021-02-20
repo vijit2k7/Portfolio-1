@@ -2,17 +2,37 @@
   padding: 100px 60px 80px 60px;
 } */
 
-.hero-logo {
-  font-size: 25px;
-}
-
 .hero-primarytx {
   font-size: 40px;
   font-weight: 700px;
-  padding: 200px 0 200px 0;
+  padding: 40vh 0 20vh 0;
   color: white;
 }
 
 .hero-tx-primary {
   color: #5ac24d;
+}
+
+.myImg > * {
+  background-color: transparent;
+
+  position: fixed;
+  z-index: 100;
+
+  left: 10px;
+  width: 50px;
+}
+.myImg-img {
+  top: 11vh;
+  left: 0;
+  border-radius: 0 20px 20px 0;
+  z-index: 100;
+  width: 21vh;
+}
+
+@media (max-width: 1022px) {
+  .myImg-img {
+    position: absolute;
+    z-index: 0;
+  }
 }

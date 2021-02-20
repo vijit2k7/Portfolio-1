@@ -1,47 +1,30 @@
 import React from "react";
-import {
-  Card,
-  CardActionArea,
-  CardContent,
-  Grid,
-  Typography,
-} from "@material-ui/core";
 
 import "../styles/Subscribe.css";
+import { Col, Row, Container, Button } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function Subscribe() {
   return (
     <div className="subscribe">
-      <div className="subscribe-container">
-        <Grid container className="subscribe-content">
-          <Grid xs={3} className="subscribe-heading">
+      <Container fluid="md" className="no-gutters">
+        <Row>
+          <Col xs={12} md={4}>
             <h5>
-              Never miss my
-              <br></br>
-              latest udpates
+              Never miss my <br /> latest updates
             </h5>
-          </Grid>
-          <Grid xs={6}>
-            <input
-              type="email"
-              name="email"
-              disabled
-              className="subscribe-email-input"
-            ></input>
-            <p>
-              <small>i will start news letters soon!</small>
+          </Col>
+          <Col xs={12} md={4}>
+            <input disabled />
+            <p className="text-white">
+              <small className="small">I will start newsletter soon!</small>
             </p>
-          </Grid>
-          <Grid xs={3}>
-            <input
-              type="button"
-              value="subscribe"
-              disabled
-              className="subscribe-button"
-            ></input>
-          </Grid>
-        </Grid>
-      </div>
+          </Col>
+          <Col className="sub-btn-holder " md={4} xs={12}>
+            <Button variant="primary">Subscribe</Button>
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 }

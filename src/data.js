@@ -8,15 +8,7 @@ const skills = [
     color: "#62DAFB",
     type: "fab",
   },
-  {
-    name: "Angular",
-    icon: "angular",
-    fontSize: "48px",
-    progress: 90,
-    value: 100,
-    color: "#de0031",
-    type: "fab",
-  },
+
   {
     name: "Javascript",
     icon: "js-square",
@@ -82,6 +74,15 @@ const skills = [
     value: 100,
     type: "fas",
     color: "#6AB23F",
+  },
+  {
+    name: "Firebase",
+    icon: "fire",
+    fontSize: "48px",
+    progress: 90,
+    value: 100,
+    color: "#F47F08",
+    type: "fas",
   },
 
   //ADD MORE HERE

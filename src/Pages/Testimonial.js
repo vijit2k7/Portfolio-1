@@ -27,7 +27,7 @@ function Testimonial() {
       </div>
       <div className="test-client-count">
         <span className="test-client-text">
-          <b className="tx-primary">~ Steve</b> + <b> 30 more clients</b>
+          {/* <b className="tx-primary">Steve</b> + <b> 30 more clients</b> */}
         </span>
       </div>
     </div>
