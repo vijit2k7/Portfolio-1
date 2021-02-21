@@ -23,8 +23,9 @@ function App() {
       <Expertise />
       <Portfolio />
       <OpenSource />
-      {/* <Testimonial />
-      <Footer /> */}
+      <Subscribe />
+      <Testimonial />
+      <Footer />
     </div>
   );
 }

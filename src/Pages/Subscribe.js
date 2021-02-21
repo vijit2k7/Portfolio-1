@@ -6,26 +6,26 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function Subscribe() {
   return (
-    <div className="subscribe">
-      <Container fluid="md" className="no-gutters">
-        <Row>
-          <Col xs={12} md={4}>
-            <h5>
-              Never miss my <br /> latest updates
-            </h5>
-          </Col>
-          <Col xs={12} md={4}>
-            <input disabled />
-            <p className="text-white">
-              <small className="small">I will start newsletter soon!</small>
-            </p>
-          </Col>
-          <Col className="sub-btn-holder " md={4} xs={12}>
-            <Button variant="primary">Subscribe</Button>
-          </Col>
-        </Row>
-      </Container>
-    </div>
+    <Container className="subscribe">
+      <Row className="no-gutters">
+        <Col>
+          <h5>
+            Never miss my <br /> latest updates
+          </h5>
+        </Col>
+        <Col md={5}>
+          <input disabled />
+          <p className="text-white">
+            <small className="small">I will start newsletter soon!</small>
+          </p>
+        </Col>
+        <Col md={3}>
+          <Button className="sub-btn-holder " variant="primary">
+            Subscribe
+          </Button>
+        </Col>
+      </Row>
+    </Container>
   );
 }
 

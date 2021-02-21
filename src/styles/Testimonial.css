@@ -1,13 +1,11 @@
 .testimonial {
   position: relative;
-  margin-top: 20rem;
+  padding-top: 19vh;
 }
 .testimonial-heading {
   position: absolute;
   overflow: hidden;
-
   left: 0;
-  top: -80px;
   width: 100%;
   font-size: 120px;
   line-height: 120px;
@@ -26,16 +24,17 @@
   color: white;
   font-weight: bold;
   font-size: 35px;
-  margin-top: 30px;
-  padding-left: 28px;
+  padding-top: 9vh;
+  padding-left: 15px;
 }
 
 .test-reviews {
   margin-left: 100px;
   margin-top: 80px;
   padding-bottom: 30px;
+  text-align: center;
 }
 
 .test-client-text {
-  padding-left: 25rem;
+  text-align: center;
 }
