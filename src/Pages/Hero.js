@@ -1,15 +1,12 @@
 import React from "react";
-//styles
 import "../styles/Hero.css";
 import sid from "../images/sid.JPG";
-
+import { Col, Row, Container, Button, Card } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 function Hero() {
   return (
-    <div className="hero">
-      <div className="myImg">
-        <img className="myImg-img" src={sid} alt="my-photo" />
-      </div>
-      <div>
+    <Container className="hero">
+      <div className="hero-message">
         <h2 className="hero-primarytx">
           <b className="tx-primary">Engineer </b>
           by Degree,
@@ -17,7 +14,7 @@ function Hero() {
           <b className="hero-tx-primary">Designer </b> by Passion.
         </h2>
       </div>
-    </div>
+    </Container>
   );
 }
 

@@ -1,0 +1,3 @@
+      {/* <div xs={12} className="myImg">
+        <img className="myImg-img" src={sid} alt="my-photo" />
+      </div> */}

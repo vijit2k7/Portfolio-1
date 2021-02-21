@@ -1,13 +1,14 @@
+.portfolio {
+  padding-top: 9vh;
+}
 .portfolio-section {
   position: relative;
-  margin-top: 50px;
 }
 
 .portfolio-heading {
   position: absolute;
   overflow: hidden;
   left: 0;
-  top: -50px;
   width: 100%;
   font-size: 120px;
   line-height: 120px;
@@ -25,44 +26,38 @@
   color: white;
   font-weight: bold;
   font-size: 35px;
+  padding-top: 9vh;
 }
 .portfolio-section-intro {
   padding-left: 12px;
 }
 /* buttom */
-.portfolio-download-resume {
+.p-lets-talk {
   color: white;
   font-weight: 400;
+  align-items: right;
 }
 
 /* Cards */
 .portfolio-card-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  margin: 20px;
+  border-radius: 12px;
+  overflow: hidden !important;
+  border: none;
+
+  /* flex: 1; */
 }
+
 .portfolio-card-item {
-  padding-top: 50px;
-
-  width: 50vh;
-}
-
-.portfolio-card-item img {
   display: block;
-  padding: 0;
   cursor: pointer;
-  margin: 10px 5%;
-  width: 96%;
-  background-position: top;
-  background-repeat: no-repeat;
+  height: 50vh;
+  width: 60vh;
   background-size: cover;
-  height: 71vh;
-  overflow: hidden;
-  position: relative;
-  border-radius: 10px;
+  background-repeat: no-repeat;
 }
 
-@media (max-width: 375px) {
+/* @media (max-width: 375px) {
   .portfolio-heading {
     font-size: 40px;
   }
@@ -75,4 +70,4 @@
     font-size: 15px;
     margin-left: 2px;
   }
-}
+} */

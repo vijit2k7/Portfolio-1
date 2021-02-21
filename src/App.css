@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0;
+}
+
+.App {
+  background-color: #212325 !important;
+
+  font-size: 24px;
+
+  color: #a9a9a9;
+  font-family: "Poppins", sans-serif;
+}
+/* @media (min-width: 1200px) {
+  .container {
+    max-width: 1600px;
+  }
+} */
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #202425;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5ac24e;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

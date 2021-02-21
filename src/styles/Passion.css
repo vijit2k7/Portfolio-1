@@ -6,7 +6,6 @@
   position: absolute;
   overflow: hidden;
   left: 0;
-  top: 80px;
   width: 100%;
   font-size: 120px;
   line-height: 120px;
@@ -24,8 +23,7 @@
   color: white;
   font-weight: bold;
   font-size: 35px;
-  margin-top: 50px;
-  padding-left: 7px;
+  margin-top: 9vh;
 }
 
 .tx-primary {
@@ -54,7 +52,8 @@ ul {
   text-align: left;
 }
 .card-1,
-.card-2 {
+.card-2,
+.card-3 {
   padding-bottom: 20px;
 }
 .passion-card-1,
@@ -67,31 +66,13 @@ ul {
   font-size: 18px;
   border-radius: 20px !important;
 }
- 
+
 .pas-card-text {
   margin: 20px 25px 20px 25px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 320px) {
   .passion-heading {
     font-size: 40px;
-  }
-  .passion-section-heading {
-    font-size: 20px;
-    margin-top: 40px;
-    margin-left: -20px;
-  }
-  .pas-intro-small {
-    font-size: 10px;
-  }
-  .passion-hireme {
-    font-size: 15px;
-    margin-left: 2px;
-  }
-  .pas-card-text h4 {
-    font-size: 18px;
-  }
-  .pas-card-text p {
-    font-size: 15px;
   }
 }
