@@ -3,6 +3,7 @@ import { Grid } from "@material-ui/core";
 import "../styles/Summary.css";
 import { Col, Row, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+
 function Summary() {
   return (
     <Container className="summary">
@@ -32,11 +33,22 @@ function Summary() {
                 Download CV
               </button>
               <button className="summary-linkedin-btn">
-                <i className="fab fa-linkedin-in "></i>
+                <a
+                  href="https://www.linkedin.com/in/sidhant-sharma-21a79325/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fab fa-linkedin-in "></i>
+                </a>
               </button>
-
               <button className="summary-skype-btn">
-                <i className="fab fa-skype"></i>
+                <a
+                  href="skype:sharma.sidhant?call"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fab fa-skype"></i>
+                </a>
               </button>
             </div>
           </div>

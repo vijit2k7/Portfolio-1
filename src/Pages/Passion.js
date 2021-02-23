@@ -1,8 +1,12 @@
 import React from "react";
+//Router
+import { Link } from "react-scroll";
 
+////
 import "../styles/Passion.css";
 import { Col, Row, Container, Button, Card } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+
 function Passion() {
   return (
     <Container className="passion">
@@ -28,9 +32,15 @@ function Passion() {
         <Col md={4}>
           <ul>
             <li>
-              <a href="#" className="passion-hireme">
+              <Link
+                to="contact"
+                // delay={30}
+                className="passion-hireme"
+                smooth="easeInOutQuint"
+                duration={2000}
+              >
                 Hire me
-              </a>
+              </Link>
             </li>
           </ul>
         </Col>

@@ -12,21 +12,30 @@ import Testimonial from "../src/Pages/Testimonial";
 import Contact from "../src/Pages/Contact";
 import Footer from "../src/Pages/Footer";
 
+//Router
+
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+///
+
 import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <Hero />
-      <Summary />
-      <Passion />
-      <Expertise />
-      <Portfolio />
-      <OpenSource />
-      <Subscribe />
-      <Testimonial />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        <Hero />
+        <Summary />
+        <Passion />
+        <Expertise />
+        <Portfolio />
+        <OpenSource />
+        <Subscribe />
+        <Testimonial />
+        <Route />
+        <Contact />
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

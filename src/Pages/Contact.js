@@ -1,23 +1,34 @@
 import React from "react";
 import "../styles/Contact.css";
-import { Card, Grid, TextField, Icon, Button } from "@material-ui/core";
-import { makeStyles } from "@material-ui/core/styles";
 
+import {
+  Col,
+  Row,
+  Container,
+  Button,
+  Card,
+  Form,
+  FormGroup,
+} from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 function Contact() {
   return (
-    <div className="contact">
-      <div>
-        <h2 className="contact-heading">CONTACT</h2>
-      </div>
-      <div>
-        <p className="contact-section-intro">
-          <strong className="tx-primary">Let's</strong> get in touch
-        </p>
-      </div>
-
-      <Grid container spacing={3} className="contact-cards">
-        <Grid item xs>
-          <Card raised className="contact-grid">
+    <Container className="contact" id="contact">
+      <Row>
+        <Col>
+          <h2 className="contact-heading">CONTACT</h2>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <p className="contact-section-intro">
+            <strong className="tx-primary">Let's</strong> get in touch
+          </p>
+        </Col>
+      </Row>
+      <Row className="contact-cards">
+        <Col>
+          <Card className="contact-grid">
             <a href="#">
               <ul>
                 <li>
@@ -34,8 +45,8 @@ function Contact() {
               </ul>
             </a>
           </Card>
-        </Grid>
-        <Grid item xs>
+        </Col>
+        <Col>
           <Card raised className="contact-grid contact-email">
             <a href="#">
               <ul>
@@ -53,8 +64,8 @@ function Contact() {
               </ul>
             </a>
           </Card>
-        </Grid>
-        <Grid item xs>
+        </Col>
+        <Col>
           <Card raised className="contact-grid">
             <a href="">
               <ul>
@@ -72,8 +83,8 @@ function Contact() {
               </ul>
             </a>
           </Card>
-        </Grid>
-        <Grid item xs>
+        </Col>
+        <Col>
           <Card raised className="contact-grid">
             <a href="#">
               <ul>
@@ -85,72 +96,68 @@ function Contact() {
                   </div>
                   <div className="contact-card-title">FreeLancer</div>
                   <p>
-                    <a>Upwork</a>
+                    <a href="#">Upwork</a>
                   </p>
                 </li>
               </ul>
             </a>
           </Card>
-        </Grid>
-      </Grid>
+        </Col>
+      </Row>
       {/* seprator */}
-
-      <Grid container xs={12} direction="row" className="contact-seprator">
-        <Grid>
+      <Row container xs={12} direction="row" className="contact-seprator">
+        <Col>
           <span>
             <b className="tx-primary">OR</b>
           </span>
-        </Grid>
-        <Grid xs={11}>
+        </Col>
+        <Col xs={11}>
           <div className="seprator"></div>
-        </Grid>
-      </Grid>
+        </Col>
+      </Row>
       {/* Form from here */}
-      <Grid container xs={12}>
-        <Grid item container xs={8}>
-          <Card raised className="contact-form-grid">
-            <form className="contact-form">
-              <Grid container xs={12} direction="row">
-                <Grid className="form-grid-name" item xs={6}>
-                  <TextField
-                    fullWidth
-                    autoComplete="off"
-                    id="name"
-                    label="Enter Name"
+      <Row container xs={12}>
+        <Col item container xs={8}>
+          <Form className="contact-form-grid">
+            <Row>
+              <Col>
+                <FormGroup controlId="formBasicEmail">
+                  <Form.Control
+                    type="email"
+                    placeholder="Enter email"
+                    className="email-input"
                   />
-                </Grid>
-                <Grid item xs={6}>
-                  <TextField fullWidth id="email" label="Email" />
-                </Grid>
-              </Grid>
-              <Grid className="contact-textfield-grid" xs={12}>
-                <TextField
-                  fullWidth
-                  label=""
-                  variant="filled"
-                  id="text-field"
-                />
-              </Grid>
-              <Grid className="button-grid" xs={12}>
-                <button type="submit" className="contact-send-btn">
-                  SEND MESSAGE
-                  <span></span>
-                </button>
-                Send
-              </Grid>
-            </form>
-          </Card>
-        </Grid>
-        <Grid item xs={4}>
-          <Card raised className="live-chat-container">
+                </FormGroup>
+              </Col>
+              <Col>
+                <Form.Group controlId="formBasicPassword">
+                  <Form.Control
+                    type="password"
+                    placeholder="Password"
+                    className="password-input"
+                  />
+                </Form.Group>
+                <Form.Group controlId="exampleForm.ControlTextarea1"></Form.Group>
+              </Col>
+
+              <Form.Control as="textarea" rows={3} className="form-text-area" />
+            </Row>
+
+            <Button variant="link" type="submit" className="form-button">
+              SEND MESSAGE ->
+            </Button>
+          </Form>
+        </Col>
+        <Col className="live-chat-container">
+          <Card className="live-chat-card">
             <span>
               <i className="fas fa-comments fa-3x"></i>
             </span>
             <p className="live-chat">Live Chat</p>
           </Card>
-        </Grid>
-      </Grid>
-    </div>
+        </Col>
+      </Row>
+    </Container>
   );
 }
 

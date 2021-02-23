@@ -1,13 +1,13 @@
 .contact {
   position: relative;
-  margin-top: 15rem;
+  margin-top: 15vh;
 }
 .contact-heading {
   position: absolute;
   overflow: hidden;
 
   left: 0;
-  top: -80px;
+
   width: 100%;
   font-size: 120px;
   line-height: 120px;
@@ -24,25 +24,29 @@
 .contact-section-intro {
   padding-left: 28px;
   color: white;
+  padding-top: 6vh;
   font-weight: bold;
   font-size: 35px;
   margin-top: 30px;
   padding-left: 28px;
 }
 /* Cards */
+.contact a:hover {
+  color: white;
+}
 .contact-cards {
   padding-top: 30px;
 }
 .contact-grid {
-  background-color: #404347 !important;
-  border-radius: 20px !important;
+  background-color: #404347;
+  border-radius: 20px;
 }
 .contact-grid li {
   text-decoration: none;
   list-style-type: none;
   position: relative;
   width: auto;
-  padding: 20px 1px 15px 75px;
+  padding: 25px 20px 10px 75px;
   text-align: left;
 }
 .contact-card-icon {
@@ -106,64 +110,58 @@
 
 /* Form Styling */
 
-.contact-form {
-  padding: 20px 500px 20px 50px;
-  margin-top: 10px;
-  color: #404347 !important;
-  width: 40rem;
-}
-
 .contact-form-grid {
   margin-top: 40px;
   background-color: #404347 !important;
   border-radius: 20px !important;
-}
-.contact-textfield-grid {
-  margin-top: 10px;
-}
-.form-grid-name {
-  padding-right: 30px;
+  padding: 50px;
+  background-color: #404347;
 }
 
-.contact-textfield-grid {
-  padding-top: 15px;
-}
-#text-field {
-  height: 100px;
-}
-.button-grid {
-  padding-top: 20px;
-}
-.contact-send-btn {
+.email-input,
+.password-input {
+  background-color: #404347;
+  width: 94%;
+  margin-bottom: 20px;
   background-color: transparent;
   border: none;
-  color: #fff;
-  font-family: Poppins, sans-serif;
-  margin-top: 20px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: 400;
-  font-size: 20px;
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.05);
+  height: 40px;
+  line-height: 40px;
+  outline: 0;
+  transition-duration: 0.2s;
 }
 
+.form-text-area {
+  border: none;
+  background-color: #404347;
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.05);
+  transition-duration: 0.2s;
+}
+.form-button {
+  margin-top: 2vh;
+  color: white;
+}
 /* Lets talk */
 
-.live-chat-container {
-  margin-top: 40px;
-  margin-left: 80px;
-  margin-right: 30px;
-  background-color: #404347 !important;
-  border-radius: 20px !important;
+.live-chat-card {
+  background-color: #404347;
+  border-radius: 20px;
+  width: 60%;
+  height: 50%;
 }
 
 .fa-comments {
-  margin-left: 87px;
-  margin-top: 20px;
   color: #5ac24e;
+  margin-top: 20px;
+  margin-left: 60px;
+  padding-bottom: 10px;
 }
 .live-chat {
-  margin-left: 80px;
-  margin-top: 20px;
-  margin-bottom: 20px;
   color: white;
+  text-align: center;
+}
+
+.live-chat-container {
+  margin: 40px 0 0 30px;
 }
