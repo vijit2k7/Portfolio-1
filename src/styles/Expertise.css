@@ -7,9 +7,8 @@
 .expertise-heading {
   position: absolute;
   overflow: hidden;
-  left: 0;
-
   width: 100%;
+  left: 10px;
   font-size: 120px;
   line-height: 120px;
   color: #fff;
@@ -27,7 +26,7 @@
   font-weight: bold;
   font-size: 35px;
   padding-top: 9vh;
-  padding-left: 8px;
+  padding-left: 10px;
 }
 .expertise-section-intro {
   padding-left: 11px;
@@ -39,8 +38,16 @@ a {
 
 /* Button */
 .expertise-download-resume {
+  font-size: 20px;
   color: white;
   font-weight: 400;
+  cursor: pointer;
+  border: none;
+  border-bottom: 1px solid hsla(0, 16%, 92%, 0.25);
+}
+
+.expertise-download-resume:hover {
+  color: #5ac24d;
 }
 
 /* Cards */
@@ -49,11 +56,14 @@ a {
 .expertise-card-2 {
   background-color: #2f3234;
   font-size: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   width: 100%;
   border-radius: 20px;
+  box-shadow: 0 20px 25px rgb(25, 25, 26);
 }
-
+.expertise-card-2 {
+  padding-top: 10px;
+}
 .exp-card-title {
   color: #616264;
   font-size: 20px;
@@ -80,52 +90,32 @@ a {
   padding-top: 5px;
 }
 /* SKILLS */
-.skill-container {
-  align-items: center;
-}
+
 .skill-cards {
   background-color: #2f3234 !important;
-  width: 17vh;
-  height: 17vh;
-  margin-bottom: 20px;
-
-  border-radius: 20px;
+  height: 15vh;
   align-items: center;
+  border-radius: 20px;
+  width: 160px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
   box-shadow: #686969;
+  box-shadow: 0 20px 25px rgb(25, 25, 26);
 }
 
 .skill-icon {
   padding-top: 20px;
+  padding-bottom: 10px;
 }
 .skill-name {
-  font-size: 20px;
-  padding-top: 15px;
+  font-size: 17px;
   color: white;
 }
-/* 
-@media (max-width: 375px) {
+
+@media (max-width: 766px) {
   .expertise-heading {
-    font-size: 40px;
+    font-size: 60px;
+    padding-top: 10px;
   }
-  .expertise-section-heading {
-    font-size: 20px;
-    margin-top: 20px;
-    margin-left: -20px;
-  }
-  .exp-intro-small {
-    font-size: 10px;
-  }
-  .expertise-download-resume {
-    font-size: 15px;
-    margin-left: 2px;
-  }
-  .pas-card-text h4 {
-    font-size: 18px;
-  }
-  .pas-card-text p {
-    font-size: 15px;
-  }
-  .skill-container {
-    padding-top: 15px;
-  }
-} */
+}

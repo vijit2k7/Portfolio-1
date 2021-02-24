@@ -5,7 +5,7 @@
 .os-heading {
   position: absolute;
   overflow: hidden;
-  left: 0;
+  left: 10px;
   width: 100%;
   font-size: 120px;
   line-height: 120px;
@@ -24,7 +24,7 @@
   font-weight: bold;
   font-size: 35px;
   padding-top: 8vh;
-  padding-left: 15px;
+  padding-left: 10px;
 }
 .os-section-intro {
   padding-bottom: 40px;
@@ -36,8 +36,16 @@
 
 /* button */
 .os-collabrate {
+  font-size: 20px;
   color: white;
   font-weight: 400;
+  cursor: pointer;
+  border: none;
+  border-bottom: 1px solid hsla(0, 16%, 92%, 0.25);
+}
+
+.os-collabrate:hover {
+  color: #5ac24d;
 }
 /* cards */
 
@@ -82,4 +90,11 @@
 
 .os-projects-text {
   margin: 10px 15px 10px 24px;
+}
+
+@media (max-width: 766px) {
+  .os-heading {
+    font-size: 60px;
+    padding-top: 10px;
+  }
 }

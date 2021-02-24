@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/Contact.css";
-
 import {
   Col,
   Row,
@@ -27,7 +26,7 @@ function Contact() {
         </Col>
       </Row>
       <Row className="contact-cards">
-        <Col>
+        <Col className="contact-card-container">
           <Card className="contact-grid">
             <a href="#">
               <ul>
@@ -46,8 +45,8 @@ function Contact() {
             </a>
           </Card>
         </Col>
-        <Col>
-          <Card raised className="contact-grid contact-email">
+        <Col className="contact-card-container">
+          <Card className="contact-grid contact-email">
             <a href="#">
               <ul>
                 <li>
@@ -65,7 +64,7 @@ function Contact() {
             </a>
           </Card>
         </Col>
-        <Col>
+        <Col className="contact-card-container">
           <Card raised className="contact-grid">
             <a href="">
               <ul>
@@ -84,7 +83,7 @@ function Contact() {
             </a>
           </Card>
         </Col>
-        <Col>
+        <Col className="contact-card-container">
           <Card raised className="contact-grid">
             <a href="#">
               <ul>
@@ -108,16 +107,14 @@ function Contact() {
       <Row container xs={12} direction="row" className="contact-seprator">
         <Col>
           <span>
-            <b className="tx-primary">OR</b>
+            <b className="tx-primary or-seprator">OR</b>
+            <div className="seprator"></div>
           </span>
-        </Col>
-        <Col xs={11}>
-          <div className="seprator"></div>
         </Col>
       </Row>
       {/* Form from here */}
-      <Row container xs={12}>
-        <Col item container xs={8}>
+      <Row>
+        <Col item container md={7}>
           <Form className="contact-form-grid">
             <Row>
               <Col>
@@ -148,12 +145,12 @@ function Contact() {
             </Button>
           </Form>
         </Col>
-        <Col className="live-chat-container">
+        <Col md={3} className="live-chat-container">
           <Card className="live-chat-card">
             <span>
               <i className="fas fa-comments fa-3x"></i>
+              <p className="live-chat">Live Chat</p>
             </span>
-            <p className="live-chat">Live Chat</p>
           </Card>
         </Col>
       </Row>

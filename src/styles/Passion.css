@@ -5,7 +5,7 @@
 .passion-heading {
   position: absolute;
   overflow: hidden;
-  left: 0;
+  left: 10px;
   width: 100%;
   font-size: 120px;
   line-height: 120px;
@@ -24,6 +24,7 @@
   font-weight: bold;
   font-size: 35px;
   margin-top: 9vh;
+  padding-left: 10px;
 }
 
 .tx-primary {
@@ -36,6 +37,13 @@ ul {
 .passion-hireme {
   color: white;
   font-weight: 400;
+  cursor: pointer;
+  border: none;
+  border-bottom: 1px solid hsla(0, 16%, 92%, 0.25);
+  box-shadow: 0 10px 15px rgb(25, 25, 26);
+}
+.passion-hireme:hover {
+  color: #5ac24d;
 }
 
 /* cards */
@@ -65,14 +73,16 @@ ul {
   text-align: left;
   font-size: 18px;
   border-radius: 20px !important;
+  box-shadow: 0 20px 25px rgb(25, 25, 26);
 }
 
 .pas-card-text {
   margin: 20px 25px 20px 25px;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 600px) {
   .passion-heading {
-    font-size: 40px;
+    font-size: 60px;
+    padding-top: 10px;
   }
 }

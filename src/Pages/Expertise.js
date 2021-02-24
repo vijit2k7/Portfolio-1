@@ -48,7 +48,13 @@ const Expertise = () => {
                   <li>2018 - Present | </li>
                   <li>
                     &nbsp;
-                    <a href="#"> Tilray (Canada)</a>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://www.tilray.com/"
+                    >
+                      Tilray (Canada)
+                    </a>
                   </li>
                 </div>
                 <p className="exp-job-detail">
@@ -66,7 +72,7 @@ const Expertise = () => {
                   <li>2014 - 2015 |</li>
                   &nbsp;&nbsp;
                   <li>
-                    <a className="" href="#">
+                    <a className="" href="">
                       Kodan Solutions(in)
                     </a>
                   </li>
@@ -85,12 +91,11 @@ const Expertise = () => {
               return (
                 <Col>
                   <Card raised className="skill-cards">
-                    <span>
-                      <i
-                        style={{ color: `${skill.color}` }}
-                        className={`${skill.type} fa-${skill.icon} fa-2x skill-icon`}
-                      ></i>
-                    </span>
+                    <i
+                      style={{ color: `${skill.color}` }}
+                      className={`${skill.type} fa-${skill.icon} fa-2x skill-icon`}
+                    ></i>
+
                     <h3 className="skill-name"> {skill.name}</h3>
                   </Card>
                 </Col>

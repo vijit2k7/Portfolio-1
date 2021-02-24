@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Row, Container, Button, Card, Image } from "react-bootstrap";
+import { Link } from "react-scroll";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/Portfolio.css";
 import kodan from "../images/kodan.jpeg";
@@ -30,9 +31,14 @@ function Portfolio() {
         <Col xs={12} md={6}>
           <ul>
             <li>
-              <a href="#" className="p-lets-talk">
+              <Link
+                to="contact"
+                smooth="easeInOutQuint"
+                duration={2000}
+                className="p-lets-talk"
+              >
                 Lets Talk
-              </a>
+              </Link>
             </li>
           </ul>
         </Col>

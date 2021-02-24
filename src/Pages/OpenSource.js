@@ -46,7 +46,13 @@ function OpenSource() {
                   destination for browsing & adding the publications you care
                   about.
                 </p>
-                <a href="#">Visit Git</a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/Sid-Agnihotri"
+                >
+                  Visit Git
+                </a>
               </div>
             </Card>
           </Col>
@@ -58,7 +64,13 @@ function OpenSource() {
                   Captures full page screenshot of any website. Powered with
                   Javascript & Google Chrome Headless API. Just a test.
                 </p>
-                <a href="#">Visit Git</a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/Sid-Agnihotri"
+                >
+                  Visit Git
+                </a>
               </div>
             </Card>
           </Col>
@@ -71,7 +83,13 @@ function OpenSource() {
                   MongoDB. Also, has a custom build Angular Library for
                   uploading files. (Multer)
                 </p>
-                <a href="#">Visit Git</a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/Sid-Agnihotri"
+                >
+                  Visit Git
+                </a>
               </div>
             </Card>
           </Col>

@@ -21,9 +21,10 @@
   box-shadow: 10px 10px 30px rgb(68 79 173 / 35%);
   border: none;
   padding: 3px 2px;
+
   border-radius: 20px;
   color: #fff;
-  width: 100%;
+  width: 90%;
   margin-top: 25px;
   outline: 0;
 }
@@ -35,7 +36,8 @@
 .sub-btn-holder {
   display: block;
   width: 100%;
-  margin: 25px 0px 0px 20px;
+  margin: 25px 0px 0px 0px;
+
   font-size: 18px;
   text-transform: uppercase;
   border-radius: 20px;
@@ -47,7 +49,7 @@
   background-color: #434b9d !important;
   box-shadow: 10px 10px 30px rgb(68 79 173 / 35%);
   border: none;
-  padding: 13px 10px;
+
   border-radius: 10px;
   color: #fff;
   width: 100%;
