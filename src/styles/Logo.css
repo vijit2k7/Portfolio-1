@@ -1,0 +1,18 @@
+.logo-holder {
+  background-color: transparent;
+  height: 70px;
+  position: fixed;
+  z-index: 100;
+  top: 10px;
+
+  width: 70px;
+}
+.logo-holder a {
+  position: relative;
+}
+.logo-holder img {
+  height: 100px;
+  width: 100px;
+  border-radius: 0px 25px 25px 0px;
+  transition-duration: 0.2s;
+}
