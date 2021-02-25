@@ -11,6 +11,7 @@ import sid from "../src/images/sid.JPG";
 import Testimonial from "../src/Pages/Testimonial";
 import Contact from "../src/Pages/Contact";
 import Footer from "../src/Pages/Footer";
+import Logo from "../src/Pages/Logo";
 
 //Router
 
@@ -23,6 +24,7 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <Logo />
         <Hero />
         <Summary />
         <Passion />
