@@ -6,6 +6,7 @@ import {
   Typography,
 } from "@material-ui/core";
 import { Col, Row, Container, Button, Card } from "react-bootstrap";
+import { Link } from "react-scroll";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/OpenSource.css";
 function OpenSource() {
@@ -21,15 +22,20 @@ function OpenSource() {
       <Row>
         <Col md={8}>
           <p className="os-section-heading">
-            <strong className="tx-primary">Projects </strong> you can see
+            <strong className="tx-primary">My </strong> Projects
           </p>
         </Col>
         <Col md={4}>
           <ul>
             <li>
-              <a className="os-collabrate" href="#">
+              <Link
+                className="os-collabrate"
+                smooth="easeInOutQuint"
+                duration={2000}
+                to="contact"
+              >
                 Collabrate
-              </a>
+              </Link>
             </li>
           </ul>
         </Col>
@@ -40,11 +46,14 @@ function OpenSource() {
           <Col lg={4} xs={12} className="os-col">
             <Card raised className="os-card-1">
               <div className="os-projects-text">
-                <h4 className="os-card-heading">Pocket</h4>
+                <a href="https://ignite-4a52c.web.app/">
+                  <h4 className="os-card-heading">Ignite</h4>
+                </a>
+
                 <p className="os-card-text">
-                  A personalised article reader that provides a single
-                  destination for browsing & adding the publications you care
-                  about.
+                  Like IMDB for movies, we got Ignite for the games. Shows
+                  Upcoming, Popular & New Games. React, Redux, Rawg.io API,
+                  Axios, MaterialUI and much more.
                 </p>
                 <a
                   target="_blank"
@@ -79,9 +88,9 @@ function OpenSource() {
               <div className="os-projects-text">
                 <h4 className="os-card-heading">Tasty</h4>
                 <p className="os-card-text">
-                  Recipe Application powered by Angular, ExpressJS, NodeJS, &
-                  MongoDB. Also, has a custom build Angular Library for
-                  uploading files. (Multer)
+                  Recipe Application powered by React, ExpressJS, NodeJS, &
+                  MongoDB. Also, has a custom build React Library for uploading
+                  files.
                 </p>
                 <a
                   target="_blank"

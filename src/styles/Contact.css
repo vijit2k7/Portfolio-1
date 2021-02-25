@@ -75,7 +75,24 @@
   font-weight: 400;
   font-size: 16px;
 }
-
+.email-button,
+.call-button {
+  position: absolute;
+  font-size: 15px;
+  right: 10px;
+  top: -25px;
+  background-color: #5ac24e;
+  color: #fff;
+  padding: 3px 10px;
+  height: 25px;
+  border-radius: 4px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  transition-duration: 0.2s;
+}
+.fa-arrow-right {
+  padding-left: 8px;
+}
 .contact-email {
   padding-right: 10px;
 }
@@ -150,12 +167,17 @@
   margin-top: 30px;
   color: white;
 }
+.form-button:hover {
+  margin-top: 30px;
+  color: #5ac24e;
+  text-decoration: none;
+}
 /* Lets talk */
 
 .live-chat-card {
   background-color: #404347;
   border-radius: 20px;
-  width: 80%;
+  width: 200px;
   height: 170px;
   align-items: center;
   box-shadow: 0 20px 25px rgb(25, 25, 26);

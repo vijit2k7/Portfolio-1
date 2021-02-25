@@ -13,7 +13,7 @@ function Summary() {
           <p>
             From the beginning of my journey as a designer & developer. I've
             always been drawn to the overlap between design and development. My
-            skills are broad: from <b> UX </b> to <b> UI </b>, <b>Front end</b>{" "}
+            skills are broad: from <b> UX </b> to <b> UI </b>, <b>Front end</b>
             to <b> Back end </b>development. I enjoy each aspect, & love
             building products from start to finish, for clients all over the
             world.

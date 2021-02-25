@@ -18,7 +18,7 @@ function Passion() {
           <Row>
             <Col md={6} xs={12}>
               <p className="passion-section-heading">
-                <strong className="tx-primary">Skills </strong> i've done
+                <strong className="tx-primary">My </strong> Passion
               </p>
               <p className="passion-intro">
                 <small className="pas-intro-small">
@@ -30,8 +30,8 @@ function Passion() {
               <ul>
                 <li>
                   <Link
-                    to="contact"
                     className="passion-hireme"
+                    to="contact"
                     smooth="easeInOutQuint"
                     duration={2000}
                   >

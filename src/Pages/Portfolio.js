@@ -20,7 +20,7 @@ function Portfolio() {
       <Row className="portfolio-section">
         <Col xs={12} md={9}>
           <p className="portfolio-section-heading">
-            <strong className="tx-primary">Work </strong> i did
+            <strong className="tx-primary">Work </strong> i've done
           </p>
           <p>
             <small>

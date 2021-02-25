@@ -28,59 +28,62 @@ function Contact() {
       <Row className="contact-cards">
         <Col className="contact-card-container">
           <Card className="contact-grid">
-            <a href="#">
-              <ul>
-                <li>
-                  <div className="contact-card-icon">
-                    <span>
-                      <i className="fas fa-phone-alt"></i>
-                    </span>
-                  </div>
-                  <div className="contact-card-title">Phone/Whatsapp</div>
-                  <p>
-                    <a href="#"> +1(438)927-9098</a>
-                  </p>
-                </li>
-              </ul>
-            </a>
+            <ul>
+              <li>
+                <a href="tel:4389279098" className="call-button">
+                  Call Me<i class="fas fa-arrow-right"></i>
+                </a>
+                <div className="contact-card-icon">
+                  <span>
+                    <i className="fas fa-phone-alt"></i>
+                  </span>
+                </div>
+                <div className="contact-card-title">Phone/Whatsapp</div>
+                <p>
+                  <p> +1(438)927-9098</p>
+                </p>
+              </li>
+            </ul>
           </Card>
         </Col>
         <Col className="contact-card-container">
           <Card className="contact-grid contact-email">
-            <a href="#">
-              <ul>
-                <li>
-                  <div className="contact-card-icon">
-                    <span>
-                      <i className="fas fa-at"></i>
-                    </span>
-                  </div>
-                  <div className="contact-card-title">Email</div>
-                  <p>
-                    <a href="#"> sharma.sidhant@outlook.com</a>
-                  </p>
-                </li>
-              </ul>
-            </a>
+            <ul>
+              <li>
+                <a
+                  href="mailto:sharma.sidhant@outlook.com"
+                  className="email-button"
+                >
+                  Send a Mail<i class="fas fa-arrow-right"></i>
+                </a>
+                <div className="contact-card-icon">
+                  <span>
+                    <i className="fas fa-at"></i>
+                  </span>
+                </div>
+                <div className="contact-card-title">Email</div>
+                <p>
+                  <p>sharma.sidhant@outlook.com</p>
+                </p>
+              </li>
+            </ul>
           </Card>
         </Col>
         <Col className="contact-card-container">
           <Card raised className="contact-grid">
-            <a href="">
-              <ul>
-                <li>
-                  <div className="contact-card-icon">
-                    <span>
-                      <i className="fas fa-map-marker-alt"></i>
-                    </span>
-                  </div>
-                  <div className="contact-card-title">Skype</div>
-                  <p>
-                    <a href="#"> Sid_Agnihotri</a>
-                  </p>
-                </li>
-              </ul>
-            </a>
+            <ul>
+              <li>
+                <div className="contact-card-icon">
+                  <span>
+                    <i className="fas fa-map-marker-alt"></i>
+                  </span>
+                </div>
+                <div className="contact-card-title">Skype</div>
+                <p>
+                  <a href="skype:sharma.sidhant?call"> Sid.Agnihotri</a>
+                </p>
+              </li>
+            </ul>
           </Card>
         </Col>
         <Col className="contact-card-container">
@@ -141,7 +144,7 @@ function Contact() {
             </Row>
 
             <Button variant="link" type="submit" className="form-button">
-              SEND MESSAGE ->
+              SEND MESSAGE <i class="fas fa-arrow-right"></i>
             </Button>
           </Form>
         </Col>

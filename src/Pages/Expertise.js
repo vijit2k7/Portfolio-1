@@ -18,7 +18,7 @@ const Expertise = () => {
       <Row>
         <Col xs={12} md={6}>
           <p className="expertise-section-heading">
-            <strong className="tx-primary">Technologies </strong> I Know
+            <strong className="tx-primary">My </strong> Background
           </p>
           <p className="passion-intro">
             <small className="exp-intro-small">
@@ -42,7 +42,7 @@ const Expertise = () => {
           <Card className="expertise-card-1 ">
             <div className="exp-job-container">
               <p className="exp-card-title">CURRENT EMPLOYER</p>
-              <h3 className="exp-job-title">Network/System Engineer</h3>
+              <h3 className="exp-job-title">Network/System Analyst</h3>
               <ul>
                 <div className="expertise-job-link">
                   <li>2018 - Present | </li>
@@ -66,14 +66,14 @@ const Expertise = () => {
           </Card>
           <Card className="expertise-card-2 ">
             <div className="exp-job-container">
-              <h3 className="exp-job-title">Front-End Engineer</h3>
+              <h3 className="exp-job-title">Front-End Developer</h3>
               <ul>
                 <div className="expertise-job-link">
                   <li>2014 - 2015 |</li>
                   &nbsp;&nbsp;
                   <li>
-                    <a className="" href="">
-                      Kodan Solutions(in)
+                    <a className="indishine-container" href="">
+                      Indshine(in) - Freelance
                     </a>
                   </li>
                 </div>

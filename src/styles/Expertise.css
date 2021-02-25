@@ -77,6 +77,10 @@ a {
   display: flex;
   flex-direction: row;
 }
+.indishine-container {
+  pointer-events: none;
+  cursor: default;
+}
 
 .expertise-job-link a {
   color: #5ac24d;
@@ -86,6 +90,7 @@ a {
 }
 .exp-job-detail {
   text-align: left;
+  font-size: 17px;
   padding-top: 5px;
 }
 /* SKILLS */
@@ -97,7 +102,7 @@ a {
   border-radius: 20px;
   width: 160px;
   margin-left: 10px;
-  margin-right: 10px;
+
   margin-bottom: 20px;
   box-shadow: #686969;
   box-shadow: 0 20px 25px rgb(25, 25, 26);
