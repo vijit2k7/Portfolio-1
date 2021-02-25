@@ -1,5 +1,5 @@
 .os {
-  padding-top: 14vh;
+  padding-top: 150px;
   position: relative;
 }
 .os-heading {
@@ -23,7 +23,7 @@
   color: white;
   font-weight: bold;
   font-size: 35px;
-  padding-top: 8vh;
+  padding-top: 80px;
   padding-left: 10px;
 }
 .os-section-intro {

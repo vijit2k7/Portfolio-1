@@ -15,33 +15,32 @@ function Passion() {
           <div>
             <h2 className="passion-heading">PASSION</h2>
           </div>
-        </Col>
-      </Row>
-
-      <Row>
-        <Col md={8}>
-          <p className="passion-section-heading">
-            <strong className="tx-primary">Skills </strong> i've done
-          </p>
-          <p className="passion-intro">
-            <small className="pas-intro-small">
-              I love to develop websites & web apps.
-            </small>
-          </p>
-        </Col>
-        <Col md={4}>
-          <ul>
-            <li>
-              <Link
-                to="contact"
-                className="passion-hireme"
-                smooth="easeInOutQuint"
-                duration={2000}
-              >
-                Hire me
-              </Link>
-            </li>
-          </ul>
+          <Row>
+            <Col md={6} xs={12}>
+              <p className="passion-section-heading">
+                <strong className="tx-primary">Skills </strong> i've done
+              </p>
+              <p className="passion-intro">
+                <small className="pas-intro-small">
+                  I love to develop websites & web apps.
+                </small>
+              </p>
+            </Col>
+            <Col>
+              <ul>
+                <li>
+                  <Link
+                    to="contact"
+                    className="passion-hireme"
+                    smooth="easeInOutQuint"
+                    duration={2000}
+                  >
+                    Hire me
+                  </Link>
+                </li>
+              </ul>
+            </Col>
+          </Row>
         </Col>
       </Row>
 

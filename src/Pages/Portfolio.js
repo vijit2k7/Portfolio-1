@@ -18,7 +18,7 @@ function Portfolio() {
       </Row>
 
       <Row className="portfolio-section">
-        <Col xs={12} md={6}>
+        <Col xs={12} md={9}>
           <p className="portfolio-section-heading">
             <strong className="tx-primary">Work </strong> i did
           </p>
@@ -28,7 +28,7 @@ function Portfolio() {
             </small>
           </p>
         </Col>
-        <Col xs={12} md={6}>
+        <Col xs={12} md={3}>
           <ul>
             <li>
               <Link
@@ -51,7 +51,7 @@ function Portfolio() {
               fluid={true}
               as={Image}
               src={kodan}
-              alt="Norway"
+              alt="Kodan"
             />
           </Card>
         </Col>
@@ -62,7 +62,7 @@ function Portfolio() {
               fluid={true}
               as={Image}
               src={ornaz}
-              alt="Norway"
+              alt="Ornaz"
             />
           </Card>
         </Col>

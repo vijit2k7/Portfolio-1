@@ -1,6 +1,6 @@
 .expertise-section {
   position: relative;
-  padding-top: 14vh;
+  padding-top: 120px;
   padding-bottom: 80px;
 }
 
@@ -25,7 +25,7 @@
   color: white;
   font-weight: bold;
   font-size: 35px;
-  padding-top: 9vh;
+  padding-top: 80px;
   padding-left: 10px;
 }
 .expertise-section-intro {
@@ -43,7 +43,6 @@ a {
   font-weight: 400;
   cursor: pointer;
   border: none;
-  border-bottom: 1px solid hsla(0, 16%, 92%, 0.25);
 }
 
 .expertise-download-resume:hover {
@@ -93,7 +92,7 @@ a {
 
 .skill-cards {
   background-color: #2f3234 !important;
-  height: 15vh;
+  height: 120px;
   align-items: center;
   border-radius: 20px;
   width: 160px;

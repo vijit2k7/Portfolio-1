@@ -1,10 +1,10 @@
 .footer {
   color: #fff;
-  margin-top: 7vh;
+  margin-top: 67px;
 }
 
 .footer h3 {
-  padding-top: 8vh;
+  padding-top: 80px;
   text-align: center;
   font-weight: 200;
   line-height: 60px;
@@ -18,5 +18,5 @@
 
 .signature {
   text-align: center;
-  padding: 15vh 0 25vh 0;
+  padding: 80px 0 60px 0;
 }

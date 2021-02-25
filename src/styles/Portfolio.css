@@ -1,5 +1,5 @@
 .portfolio {
-  padding-top: 9vh;
+  padding-top: 70px;
 }
 .portfolio-section {
   position: relative;
@@ -26,7 +26,7 @@
   color: white;
   font-weight: bold;
   font-size: 35px;
-  padding-top: 9vh;
+  padding-top: 80px;
   padding-left: 10px;
 }
 .portfolio-section-intro {
@@ -39,7 +39,6 @@
   font-weight: 400;
   cursor: pointer;
   border: none;
-  border-bottom: 1px solid hsla(0, 16%, 92%, 0.25);
 }
 .p-lets-talk:hover {
   color: #5ac24d;
@@ -47,10 +46,10 @@
 /* Cards */
 .portfolio-card-container {
   margin: 20px;
-  border-radius: 12px;
   overflow: hidden !important;
   border: none;
   box-shadow: 0 20px 25px rgb(25, 25, 26);
+  border-radius: 15px;
 
   /* flex: 1; */
 }
@@ -58,10 +57,12 @@
 .portfolio-card-item {
   display: block;
   cursor: pointer;
-  height: 50vh;
-  width: 60vh;
+  height: 450px;
+  width: 100%;
   background-size: cover;
-  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+  border-radius: 15px;
 }
 
 @media (max-width: 766px) {

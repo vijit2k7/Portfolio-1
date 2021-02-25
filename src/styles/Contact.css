@@ -1,6 +1,6 @@
 .contact {
   position: relative;
-  margin-top: 15vh;
+  margin-top: 130px;
 }
 .contact-heading {
   position: absolute;
@@ -22,7 +22,7 @@
 .contact-section-intro {
   padding-left: 28px;
   color: white;
-  padding-top: 5vh;
+  padding-top: 45px;
   font-weight: bold;
   font-size: 35px;
   margin-top: 30px;
@@ -96,8 +96,8 @@
 /* Seprator */
 
 .contact-seprator {
-  padding-top: 3rem;
-  margin-left: 1rem;
+  padding-top: 40px;
+  margin-left: 20px;
   display: flex;
 }
 
@@ -147,7 +147,7 @@
   transition-duration: 0.2s;
 }
 .form-button {
-  margin-top: 2vh;
+  margin-top: 30px;
   color: white;
 }
 /* Lets talk */
@@ -156,7 +156,7 @@
   background-color: #404347;
   border-radius: 20px;
   width: 80%;
-  height: 20vh;
+  height: 170px;
   align-items: center;
   box-shadow: 0 20px 25px rgb(25, 25, 26);
 }

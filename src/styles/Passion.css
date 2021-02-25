@@ -1,6 +1,7 @@
 .passion {
   padding-top: 110px;
   position: relative;
+  min-height: 100%;
 }
 .passion-heading {
   position: absolute;
@@ -23,7 +24,7 @@
   color: white;
   font-weight: bold;
   font-size: 35px;
-  margin-top: 9vh;
+  margin-top: 80px;
   padding-left: 10px;
 }
 
@@ -36,11 +37,9 @@ ul {
 }
 .passion-hireme {
   color: white;
-  font-weight: 400;
+  font-weight: 500;
   cursor: pointer;
   border: none;
-  border-bottom: 1px solid hsla(0, 16%, 92%, 0.25);
-  box-shadow: 0 10px 15px rgb(25, 25, 26);
 }
 .passion-hireme:hover {
   color: #5ac24d;
