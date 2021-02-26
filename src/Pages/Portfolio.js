@@ -1,11 +1,9 @@
 import React from "react";
-import { Col, Row, Container, Button, Card, Image } from "react-bootstrap";
+import { Col, Row, Container, Card } from "react-bootstrap";
 import { Link } from "react-scroll";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/Portfolio.css";
-import kodan from "../images/kodan.jpeg";
-import ornaz from "../images/ornaz.png";
-import img3 from "../images/img3.jpg";
+
 function Portfolio() {
   return (
     <Container className="portfolio">
@@ -45,35 +43,27 @@ function Portfolio() {
       </Row>
       <Row style={{ display: "flex", flexDirection: "row" }}>
         <Col xs={12} md={12} lg={4}>
-          <Card className="portfolio-card-container">
-            <Card.Img
-              className="portfolio-card-item"
-              fluid={true}
-              as={Image}
-              src={kodan}
-              alt="Kodan"
-            />
+          <Card className="portfolio-card-container p-card-1">
+            <div className="p-holder">
+              <span className="p-card-type">Website</span>
+              <span className="p-card-type">2015</span>
+            </div>
           </Card>
         </Col>
         <Col xs={12} md={12} lg={4}>
-          <Card className="portfolio-card-container">
-            <Card.Img
-              className="portfolio-card-item"
-              fluid={true}
-              as={Image}
-              src={ornaz}
-              alt="Ornaz"
-            />
+          <Card className="portfolio-card-container p-card-2">
+            <div className="p-holder">
+              <span className="p-card-type">Website</span>
+              <span className="p-card-type">2016</span>
+            </div>
           </Card>
         </Col>
         <Col xs={12} md={12} lg={4}>
-          <Card className="portfolio-card-container">
-            <Card.Img
-              className="portfolio-card-item"
-              fluid={true}
-              as={Image}
-              src={img3}
-            ></Card.Img>
+          <Card className="portfolio-card-container p-card-3 ">
+            <div className="p-holder">
+              <span className="p-card-type">Website</span>
+              <span className="p-card-type">2015</span>
+            </div>
           </Card>
         </Col>
       </Row>

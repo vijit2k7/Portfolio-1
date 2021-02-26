@@ -45,7 +45,7 @@ const skills = [
     color: "#7478ae",
     type: "fab",
   },
-  ,
+
   {
     name: "Node.JS",
     icon: "node-js",
@@ -55,7 +55,7 @@ const skills = [
     color: "#5b8556",
     type: "fab",
   },
-  ,
+
   {
     name: "NPM",
     icon: "npm",
@@ -65,7 +65,7 @@ const skills = [
     color: "#C53635",
     type: "fab",
   },
-  ,
+
   {
     name: "Mongo DB",
     icon: "database",

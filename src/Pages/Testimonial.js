@@ -1,5 +1,5 @@
 import "../styles/Testimonial.css";
-import { Col, Row, Container, Button, Card } from "react-bootstrap";
+import { Col, Row, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 function Testimonial() {
   return (

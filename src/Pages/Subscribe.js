@@ -16,7 +16,7 @@ function Subscribe() {
         <Col md={5}>
           <input disabled />
           <p className="text-white">
-            <small className="small">I will start newsletter soon!</small>
+            <small className="small">I will start a newsletter soon!</small>
           </p>
         </Col>
         <Col md={3}>

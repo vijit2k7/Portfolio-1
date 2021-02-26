@@ -1,6 +1,6 @@
 import React from "react";
 import skills from "../data";
-import { Col, Row, Container, Button, Card } from "react-bootstrap";
+import { Col, Row, Container, Card } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/Expertise.css";
 

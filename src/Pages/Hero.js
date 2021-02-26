@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Hero.css";
-import sid from "../images/sid.JPG";
-import { Col, Row, Container, Button, Card } from "react-bootstrap";
+
+import { Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 function Hero() {
   return (

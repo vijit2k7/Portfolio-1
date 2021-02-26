@@ -7,10 +7,10 @@ const Logo = () => {
     <div>
       <div className="logo-holder">
         <a href="/">
-          <img src={sidimg} alt="" />
+          <img src={sidimg} alt="myimg" />
         </a>
       </div>
-      <div className="social-icon-fixed">
+      <div className="social-icon-fixed ">
         <div className="social-icon-container">
           <ul>
             <li>
@@ -20,15 +20,6 @@ const Logo = () => {
                 href="https://www.facebook.com/sid.agnihotri"
               >
                 <i class="fab fa-facebook-square"></i>
-              </a>
-            </li>
-            <li>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.instagram.com/sid_agnihotri/"
-              >
-                <i class="fab fa-instagram"></i>
               </a>
             </li>
             <li>

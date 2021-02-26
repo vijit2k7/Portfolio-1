@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Footer.css";
-import { Col, Row, Container, Button, Card } from "react-bootstrap";
+import { Col, Row, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import sidsig from "../images/sidsig.png";
 function Footer() {
@@ -21,6 +21,12 @@ function Footer() {
           </div>
         </Col>
       </Row>
+      <div className="copyright-logo-container">
+        <p className="copyright-logo">
+          <i className="far fa-copyright " /> 2021 - Design and Developed by Sid
+          Sharma
+        </p>
+      </div>
     </Container>
   );
 }

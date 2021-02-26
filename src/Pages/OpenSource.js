@@ -1,11 +1,6 @@
 import React from "react";
-import {
-  CardActionArea,
-  CardContent,
-  Grid,
-  Typography,
-} from "@material-ui/core";
-import { Col, Row, Container, Button, Card } from "react-bootstrap";
+
+import { Col, Row, Container, Card } from "react-bootstrap";
 import { Link } from "react-scroll";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/OpenSource.css";

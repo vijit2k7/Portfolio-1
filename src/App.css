@@ -7,18 +7,13 @@
 
 .App {
   background-color: #212325 !important;
-
+  background: linear-gradient(135deg, #1d1e21, #3e4246);
   font-size: 24px;
 
   color: #a9a9a9;
   font-family: "Poppins", sans-serif;
 }
-/* @media (min-width: 1200px) {
-  .container {
-    max-width: 1600px;
-  }
-} */
-/* width */
+
 ::-webkit-scrollbar {
   width: 5px;
 }

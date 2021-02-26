@@ -66,7 +66,7 @@ function Passion() {
               <div className="pas-card-text">
                 <h4 className="passion-card-heading">Product Development</h4>
                 <p className="passion-card-text">
-                  With the Internet becoming the platform of choice for people,
+                  With the internet becoming the platform of choice for people,
                   you need to have a strong online presence.
                 </p>
                 <p className="passion-card-text">
