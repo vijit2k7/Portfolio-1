@@ -42,44 +42,50 @@ const Expertise = () => {
           <Card className="expertise-card-1 ">
             <div className="exp-job-container">
               <p className="exp-card-title">CURRENT EMPLOYER</p>
-              <h3 className="exp-job-title">Network/System Analyst</h3>
+              <h3 className="exp-job-title">Full Stack Developer</h3>
               <ul>
                 <div className="expertise-job-link">
-                  <li>2018 - Present | </li>
+                  <li>2016 - Present | </li>
                   <li>
                     &nbsp;
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      href="https://www.tilray.com/"
+                      href="https://www.hsbc.co.in/"
                     >
-                      Tilray (Canada)
+                      HSBC(India)
                     </a>
                   </li>
                 </div>
                 <p className="exp-job-detail">
-                  Working with a creative team to make India’s first tech driven
-                  modern grocery store chain for smaller towns.
+                - Gained international exposure in the markets of Hong Kong, UK, Taiwan,
+                Malaysia and US delivering end to end products, each driving a revenue
+                of over 1 million.
+                </p>
+                <p className="exp-job-detail">
+                - Created a machine learning model by analysing the loan default data for the
+                credit-loan team in hsbc which helped business identify and target critical
+                customers and hence reducing the loan default by 3.5%.
                 </p>
               </ul>
             </div>
           </Card>
           <Card className="expertise-card-2 ">
             <div className="exp-job-container">
-              <h3 className="exp-job-title">Front-End Developer</h3>
+              <h3 className="exp-job-title">Post Graduation</h3>
               <ul>
                 <div className="expertise-job-link">
-                  <li>2014 - 2015 |</li>
+                  <li>2020 - 2022 |</li>
                   &nbsp;&nbsp;
                   <li>
                     <a className="indishine-container" href="">
-                      Indshine(in) - Freelance
+                      Masters in CS (LJMU)
                     </a>
                   </li>
                 </div>
                 <p className="exp-job-detail">
-                  Collaborating with a young team on the execution of ideas for
-                  processing drone data on maps.
+                  Pursuing Masters in Computer Science from Liverpool John Moores University(UK)
+                  and worked on projects like Predicting Fraud in financial payment services,Customer segmentation etc
                 </p>
               </ul>
             </div>

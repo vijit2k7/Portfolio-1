@@ -23,8 +23,7 @@ function Footer() {
       </Row>
       <div className="copyright-logo-container">
         <p className="copyright-logo">
-          <i className="far fa-copyright " /> 2021 - Design and Developed by Sid
-          Sharma
+          <i className="far fa-copyright " /> 2021 - Design and Developed by Vijit Mishra
         </p>
       </div>
     </Container>

@@ -1,5 +1,5 @@
 import React from "react";
-import sidimg from "../images/sidimg.jpg";
+import vijit from "../images/vijit2.jpg";
 import "../styles/Logo.css";
 import { Link } from "react-scroll";
 const Logo = () => {
@@ -7,7 +7,7 @@ const Logo = () => {
     <div>
       <div className="logo-holder">
         <a href="/">
-          <img src={sidimg} alt="myimg" />
+          <img src={vijit} alt="myimg" />
         </a>
       </div>
       <div className="social-icon-fixed ">
@@ -17,7 +17,7 @@ const Logo = () => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.facebook.com/sid.agnihotri"
+                href="https://www.facebook.com/vijit.mishra.7/"
               >
                 <i class="fab fa-facebook-square"></i>
               </a>
@@ -26,7 +26,7 @@ const Logo = () => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.linkedin.com/in/sidhant-sharma-21a79325/"
+                href="https://www.linkedin.com/in/vijit-mishra-b01355188/"
               >
                 <i class="fab fa-linkedin"></i>
               </a>
@@ -35,7 +35,7 @@ const Logo = () => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://github.com/Sid-Agnihotri"
+                href="https://github.com/vijit2k7"
               >
                 <i class="fab fa-github-square"></i>
               </a>

@@ -26,7 +26,7 @@ function Testimonial() {
       <Row>
         <Col xs={12} md={12} className="test-client-count">
           <div className="test-client-text">
-            <b className="tx-primary">~ Melanie </b> + <b> 30 more clients</b>
+            <b className="tx-primary">~ HSBC </b> + <b> 10 more clients</b>
           </div>
         </Col>
       </Row>

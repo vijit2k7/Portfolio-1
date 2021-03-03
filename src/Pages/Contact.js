@@ -40,7 +40,7 @@ function Contact() {
                 </div>
                 <div className="contact-card-title">Phone/Whatsapp</div>
                 <p>
-                  <p> +1(438)927-9098</p>
+                  <p>(+91)9013523717</p>
                 </p>
               </li>
             </ul>
@@ -51,7 +51,7 @@ function Contact() {
             <ul>
               <li>
                 <a
-                  href="mailto:sharma.sidhant@outlook.com"
+                  href="mailto:vijit2k7@yahoo.in"
                   className="email-button"
                 >
                   Send a Mail<i class="fas fa-arrow-right"></i>
@@ -63,7 +63,7 @@ function Contact() {
                 </div>
                 <div className="contact-card-title">Email</div>
                 <p>
-                  <p>sharma.sidhant@outlook.com</p>
+                  <p>vijit2k7@yahoo.in</p>
                 </p>
               </li>
             </ul>
@@ -80,7 +80,7 @@ function Contact() {
                 </div>
                 <div className="contact-card-title">Skype</div>
                 <p>
-                  <a href="skype:sharma.sidhant?call"> Sid.Agnihotri</a>
+                  <a href="skype:live:veinstein22?call"> Vijit.Mishra</a>
                 </p>
               </li>
             </ul>

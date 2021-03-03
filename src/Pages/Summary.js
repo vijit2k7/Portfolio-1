@@ -35,7 +35,7 @@ function Summary() {
               </button>
               <button className="summary-linkedin-btn">
                 <a
-                  href="https://www.linkedin.com/in/sidhant-sharma-21a79325/"
+                  href="https://www.linkedin.com/in/vijit-mishra-b01355188/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
