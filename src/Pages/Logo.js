@@ -1,5 +1,5 @@
 import React from "react";
-import vijit from "../images/vijit2.jpg";
+import vijit from "../images/vijit_final.jpg";
 import "../styles/Logo.css";
 import { Link } from "react-scroll";
 const Logo = () => {

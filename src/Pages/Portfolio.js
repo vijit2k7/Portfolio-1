@@ -51,12 +51,14 @@ function Portfolio() {
           </Card>
         </Col>
         <Col xs={12} md={12} lg={4}>
+        <a href="https://faadu.in/" target="_blank">
           <Card className="portfolio-card-container p-card-2">
             <div className="p-holder">
               <span className="p-card-type">Website</span>
               <span className="p-card-type">2016</span>
             </div>
           </Card>
+          </a>
         </Col>
         <Col xs={12} md={12} lg={4}>
           <Card className="portfolio-card-container p-card-3 ">
