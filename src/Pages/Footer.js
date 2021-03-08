@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/Footer.css";
 import { Col, Row, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import sidsig from "../images/sidsig.png";
+import vijitsig from "../images/vijitsig2.png";
 function Footer() {
   return (
     <Container className="footer">
@@ -17,7 +17,7 @@ function Footer() {
         </Col>
         <Col xs={12}>
           <div className="signature">
-            <img src={sidsig} alt="" />
+            <img src={vijitsig} alt="" />
           </div>
         </Col>
       </Row>
